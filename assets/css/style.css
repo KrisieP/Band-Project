@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700&family=Passions+Conflict:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;200;300;400;500;600;700&display=swap');
 
+html, body {
+    overflow-x:hidden 
+  } 
+
 .heroimage-container {
     height: 80vh;
     background: url("../images/Hero\ Image.jpg") no-repeat bottom right; 
@@ -8,6 +12,41 @@
     -o-background-size: cover;
     background-size: cover;
 }
+
+.hero-title {
+    font-size: 14vmin;
+    color: #968686;
+    font-weight: 300;
+    font-family: "Passions Conflict", sans-serif;
+    position: relative;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.hero-sub {
+    position: absolute;
+}
+
+.sub-box {
+    background-color: rgba(79, 80, 85, 0.575);
+    border-radius: 10px 10px;
+    margin: 0;
+    text-align: center;
+    color: #968686;
+}
+
+.btn-primary {
+    padding: .5rem 1rem;
+    font-size: 12px;
+    font-family: "exo", sans-serif;
+    line-height: 1;
+    border-radius: 8px;
+    border-width: 1px;
+    border-color: #000000;
+    background-color: #bb6707;
+}
+
+
 
 /*---------------------------------------------Colours/*
 /*---------------------------------------------Special paddings/margins/text/*

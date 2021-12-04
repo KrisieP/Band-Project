@@ -173,3 +173,9 @@ For mobile devices i have used a dropdown menu which is a lot cleaner than tryin
 I have decided to implement a hero image which spreads over 100% width of the screen. I have set the height at 80vh to show a little of what comes next to entise the user into scrolling down the page.
 The image responds well when viewing on desktop, tablet and mobile.
 
+
+<a></a>
+## **Bugs**
+
+* All mobile devices had a white border down the right hand side of the screen.
+     * Fix - html, body {overflow-x:hidden} - Solution found -  [here](https://stackoverflow.com/questions/14270084/overflow-xhidden-doesnt-prevent-content-from-overflowing-in-mobile-browsers/14271049#:~:text=html%2C%20body%20%7B%0A%20%20overflow%2Dx%3Ahidden%20%0A%7D)
