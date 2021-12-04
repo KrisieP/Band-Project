@@ -1,108 +1,175 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# The Llewellin Duo - First Milestone Project
 
-Welcome USER_NAME,
+![Mokeup image](wireframes/mokeup-image.png)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## **Goal for this project** 
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+The Llewelin Duo 
+The band can perform at a variety of venues, ranging from small cosy pubs to large scales weddings where they will provide the perfect atmosphere to get everyone on their feet dancing the night away.
+This webistes purpose is to promote an acoustic duo band, who specialise in a unique Spanish cross Mexican style instrumental duet. Information regarding the band, upcoming events and supplying the user with images and example audio/video to help them contact the band to book in a relavant and resposive design is the aim here.
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+An intuitive and exciting user experience is key with information to be found easily is important.
 
-`python3 -m http.server`
+Thank you for visiting my project!
 
-A blue button should appear to click: _Make Public_,
+Any questions, please feel free to contact me via my github page. Thanks!
 
-Another blue button should appear to click: _Open Browser_.
+---
+<a></a>
+## Table of contents 
+* [UX](#ux)
+    * [User Goals](#user-goals)
+    * [User Stories](#user-stories)
+    * [Site Owners Goals](#site-owners-goals)
+    * [User Requirements and Expectations](#user-requirements-and-expectations)
+        * [Requirements](#requirements)
+        * [Expectations](#expectations)
+    * [Design Choices](#design-choices)
+        * [Fonts](#fonts)
+        * [Icons](#icons)
+        * [Colors](#colors)
+        * [Structure](#structure)
+* [Wireframes](#wireframes)
+* [Features](#features)
+    * [Existing Features](#existing-features)
+    * [Features to be implemented](#features-to-be-implemented)
+* [Technologies used](#technologies-used)
+    * [Languages](#languages)
+    * [Tools and Libraries](#tools-and-libraries)
+* [Testing](#testing)
+* [Deployment](#deployment)
+* [Credits](#credits)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: _Make Public_,
+<a name="ux"></a>
+## **UX**
+<a></a>
+### **User Goals**
 
-Another blue button should appear to click: _Open Browser_.
+* A website with content to wow the user into hiring the band for an event
+* Website should be easy to navigate on all devices formats such as desktop, tablet & mobile
+* Pleasing visual elements
+* Understand the bands style and versitility
+* Website with creative call-to-actions
+* Provide users with venue and user based reviews/testimonials
+* Contact form should be easy to find and simple to complete
+* Subscription button should be easy to find and simple to complete with a maximum of three fields
+* Links to social media accounts promtoted for additional content
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+[Back to Top](#table-of-contents)
 
-To log into the Heroku toolbelt CLI:
+<a></a>
+### **User Stories**
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+* As a user, I want to be able to easily find the contact details from the property.
+* As a user, I want to find music samples relating to the band.
+* As a user, I want to see various images of the different venue types they have played at.
+* As a user, I want to be able to easily see their upcoming events.
+* As a user, I want to know whether the band would be flexible in learning new material for a specific event.
+* As a user, I want to be able to subscribe to the latest updates, events, merch and new material.
+* As a user, it is important to me that the website is easy and simple to use. 
+* As a user, I want the websit to work well on mobile devices. 
+* As a user, I want the website to be intuitive as it will help increase enquiries for bookings.
+* As a user, I want to find the contact details quickly and easily.
+* As a user, I want contacting the band simple and quick.
+* As a user, I want to feel drawn to their style.
+* As a user, I want the website to be easy to navigate. 
+* As a user, I would like to know a bit about the band members themselves.
+* As a user, I want there to be links to their social media pages to view aditional content.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+<a></a>
+### **Site owners Goals**
+* Promote the band 
+* Increase enquiries
+* Increase bookings
+* Promote a fun and lively vibe
 
-------
+[Back to Top](#table-of-contents)
 
-## Release History
+<a></a>
+### **User Requirements and Expectations**
+<a></a>
+#### Requirements
+* Easy to navigate by using the navigation menu
+* Easy to understand live event page
+* Simple contact Us form
+* Quick and simple way to subscribe to event updates
+* Clear information about event types that the band can be hired for.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+<a></a>
+#### Expectations
+* When clicking on links, I expect the page to open in a new tab window
+* When clicking to subscribe, i expect the simple completion form to open in to a modal popup box within the same page.
+* I expect a 'Success' notification when submitting the contact form to confirm that submitted correctly
+* For all nav links to work correctly, whether it be to a different location on the same page or to a location on a seperate page.
+* Website is in line with the customer's journey
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+[Back to Top](#table-of-contents)
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+<a></a>
+### **Design Choices**
+[Coolors](https://coolors.co/ "Coolors.co") and [Color Hunt](https://colorhunt.co/)
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+<a></a>
+#### Fonts
+I have used Google fonts to find the desired font styles from this project and have decided font-family: 'Passions Conflict' works best for the bands home page name title as it fits with a previous font style used that band has been using for years that their followers would recognise, but i feel this has an additional level of elegance.
+For headings and content i have taken a more simplified clean cut approach to the font styles as being able to read the content clearly and easily is far more important for user experience than flmaboiance.
+I have done a bit of reasearch into the most popular fonts and why on google and have come to the conclusion that font-family: 'Lato' would work great for the content as it's very clean but has slight smooth cut charactaristics that i found interesting and drew me in.
+I paired font-family: 'Lora' with Lato for my headings, i read this was a popular choice and i'm happy with the results as it clearly stands apart from the content font type producing a punchy cleary heading that in a distant way alos ties into the font type used for the bands name on the main home page.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+<a></a>
+#### Icons
+I have decided to implement icons, using the [Font Awesome library](https://fontawesome.com/ "Font Awesome").
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+<a></a>
+#### Colors
+(https://colorhunt.co/palette/193637).
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+<a></a>
+#### Structure
+I have decided to use [Bootstrap](https://getbootstrap.com/) to build the base structure of my website as it has proven to be an invaluable framework. 
+Bootstrap provides various elements of CSS and Javascript which is very helpful to keep a good structure on your page. 
+As Bootstrap is designed for mobile first, I will be certain that my website functions well on mobile.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+[Back to Top](#table-of-contents)
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+--- 
+<a></a>
+## **Wireframes**
+Upon a discussion with my mentor [Balsamic](https://balsamiq.com/wireframes/) is what i have decideed to use for designing the wireframes for my project.
+I started with a mobile first aproach, so designed the website for mobile devices first, moving to tablets next and finally creating the desktop design.
+I have a four page design which i believe will be the best approach in order to seperate content as it would be too much for one page. This will ensure that the website is easy to read and navigate
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+You can find my wireframes below:
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+### [Desktop Wireframe]
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### [Tablet Wireframe]
 
-------
+### [Mobile Wireframe]
 
-## FAQ about the uptime script
 
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+[Back to Top](#table-of-contents)
 
 ---
 
-Happy coding!
+<a></a>
+## **Features**
+<a></a>
+### **Existing Features**
+
+#### Navigation
+I have used Bootstrap to create my navbar due to it's responsive nature between devices sizes.
+For mobile devices i have used a dropdown menu which is a lot cleaner than trying to squeeze all options onto a small navbar.
+
+
+
+#### Home Page - Hero Image
+
+I have decided to implement a hero image which spreads over 100% width of the screen. I have set the height at 80vh to show a little of what comes next to entise the user into scrolling down the page.
+The image responds well when viewing on desktop, tablet and mobile.
+

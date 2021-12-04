@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700&family=Passions+Conflict:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;200;300;400;500;600;700&display=swap');
+
+.heroimage-container {
+    height: 80vh;
+    background: url("../images/Hero\ Image.jpg") no-repeat bottom right; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/*---------------------------------------------Colours/*
+/*---------------------------------------------Special paddings/margins/text/*
+/*---------------------------------------------Headers/*
