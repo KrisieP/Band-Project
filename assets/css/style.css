@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700&family=Passions+Conflict:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700&family=Passions+Conflict:wght@100;200;300;400;500;600;700&family=Lora:wght@100;200;300;400;500;600;700&display=swap');
 
 html, body {
     overflow-x:hidden 
@@ -15,7 +15,7 @@ html, body {
 
 .hero-title {
     font-size: 14vmin;
-    color: #968686;
+    color: #d6d6d6;
     font-weight: 300;
     font-family: "Passions Conflict", sans-serif;
     position: relative;
@@ -25,14 +25,17 @@ html, body {
 
 .hero-sub {
     position: absolute;
+    bottom: 15rem;
+    text-align: center;
 }
 
 .sub-box {
     background-color: rgba(79, 80, 85, 0.575);
     border-radius: 10px 10px;
-    margin: 0;
+    display: inline-block;
+    padding: 8px;
     text-align: center;
-    color: #968686;
+    color: #d6d6d6;
 }
 
 .btn-primary {
@@ -46,8 +49,60 @@ html, body {
     background-color: #bb6707;
 }
 
+.background-wrapper {
+    position: absolute;
+    top: 56px;
+    left: 0;
+    height: 80vh;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+footer {
+    height: 100%;
+    margin: 0;
+    padding: 5px;
+}
+
+.soc-med-foot {
+    font-size: 35px;
+    text-align: center;
+}
+
+.soc-med-foot a {
+    padding-right: 30px;
+    color: #bb6707;
+}
+
+.feature-head {
+    height: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 5px;
+    text-align: center;
+}
+
+.feature-br {
+    margin: 8px;
+    border-style: dashed;
+    border-width: 1px;
+}
 
 
-/*---------------------------------------------Colours/*
-/*---------------------------------------------Special paddings/margins/text/*
-/*---------------------------------------------Headers/*
+/*---------------------------------------------Colours*/
+/*---------------------------------------------Special paddings/margins/text*/
+
+p {
+    font-family: "exo", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Lora", sans-serif;
+}
+
+/*---------------------------------------------Headers*/
+
