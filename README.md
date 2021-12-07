@@ -62,7 +62,7 @@ Any questions, please feel free to contact me via my github page. Thanks!
 <a></a>
 ### **User Stories**
 
-* As a user, I want to be able to easily find the contact details from the property.
+* As a user, I want to be able to easily find the contact us button to enquire for booking.
 * As a user, I want to find music samples relating to the band.
 * As a user, I want to see various images of the different venue types they have played at.
 * As a user, I want to be able to easily see their upcoming events.
@@ -131,7 +131,7 @@ I have decided to implement icons, using the [Font Awesome library](https://font
 <a></a>
 #### Structure
 I have decided to use [Bootstrap](https://getbootstrap.com/) to build the base structure of my website as it has proven to be an invaluable framework. 
-Bootstrap provides various elements of CSS and Javascript which is very helpful to keep a good structure on your page. 
+Bootstrap provides various elements of CSS and Javascript which is very helpful to keep a good structure on my pages. 
 As Bootstrap is designed for mobile first, I will be certain that my website functions well on mobile.
 
 [Back to Top](#table-of-contents)
