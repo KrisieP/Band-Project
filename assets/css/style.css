@@ -1,10 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700&family=Passions+Conflict:wght@100;200;300;400;500;600;700&family=Lora:wght@100;200;300;400;500;600;700&display=swap');
 
-html, body {
-    overflow-x:hidden 
-  } 
+/*Special paddings/margins/text*/
 
-/*---------------------------------Navbar*/
+p {
+    font-family: "exo", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Lora", sans-serif;
+}
+
+/*Navbar*/
 
 .navbar-custom {
     background: #be9b2b;
@@ -14,7 +24,7 @@ html, body {
     color: #bb6707;
 }
 
-/*--------------------------------Hero Image Section*/ 
+/*Hero Image Section*/ 
 
 .heroimage-container {
     height: 80vh;
@@ -76,7 +86,7 @@ html, body {
     background-color: rgba(0,0,0,0.5);
 }
 
-/*---------------------------------------------feature*/
+/*feature*/
 
 .feature-head {
     height: 100%;
@@ -109,7 +119,7 @@ html, body {
     padding: 5px 15px 25px 15px;
 }
 
-/*---------------------------------------------footer*/
+/*footer*/
 
 footer {
     height: 100%;
@@ -145,18 +155,6 @@ footer {
     text-align: center;
     margin: 0;
 }
-/*---------------------------------------------Special paddings/margins/text*/
 
-p {
-    font-family: "exo", sans-serif;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5 {
-    font-family: "Lora", sans-serif;
-}
 
 
