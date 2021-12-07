@@ -4,14 +4,7 @@ html, body {
     overflow-x:hidden 
   } 
 
-.heroimage-container {
-    height: 80vh;
-    background: url("../images/Hero\ Image.jpg") no-repeat bottom right; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
+/*---------------------------------Navbar*/
 
 .navbar-custom {
     background: #be9b2b;
@@ -19,6 +12,17 @@ html, body {
 
 .navbar-links a{
     color: #bb6707;
+}
+
+/*--------------------------------Hero Image Section*/ 
+
+.heroimage-container {
+    height: 80vh;
+    background: url("../images/Hero\ Image.jpg") no-repeat bottom right; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .hero-title {
@@ -72,6 +76,41 @@ html, body {
     background-color: rgba(0,0,0,0.5);
 }
 
+/*---------------------------------------------feature*/
+
+.feature-head {
+    height: 100%;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+.feature-br {
+    margin: 8px;
+    border-style: dashed;
+    border-width: 1px;
+}
+
+.feature-box {
+    background-color: rgba(79, 80, 85, 0.575);
+    margin: 0px;
+    border-radius: 10px 10px;
+    display: inline-block;
+    text-align: center;
+    color: #d6d6d6;
+}
+
+.band-feature {
+    background: #a58869;
+}
+
+.band-feature .row {
+    padding: 5px 15px 25px 15px;
+}
+
+/*---------------------------------------------footer*/
+
 footer {
     height: 100%;
     margin: 0;
@@ -106,38 +145,6 @@ footer {
     text-align: center;
     margin: 0;
 }
-
-.feature-head {
-    height: 100%;
-    margin-top: 0px;
-    margin-bottom: 15px;
-    padding: 10px;
-    text-align: center;
-}
-
-.feature-br {
-    margin: 8px;
-    border-style: dashed;
-    border-width: 1px;
-}
-
-.feature-box {
-    background-color: rgba(79, 80, 85, 0.575);
-    margin: 0px;
-    border-radius: 10px 10px;
-    display: inline-block;
-    text-align: center;
-    color: #d6d6d6;
-}
-
-.band-feature {
-    background: #a58869;
-}
-
-.band-feature .row {
-    padding: 5px 15px 25px 15px;
-}
-
 /*---------------------------------------------Special paddings/margins/text*/
 
 p {
