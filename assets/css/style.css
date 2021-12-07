@@ -156,5 +156,12 @@ footer {
     margin: 0;
 }
 
+#modal-form {
+    padding: 10px;
+}
 
+.modal-button {
+    padding-top: 5px;
+    margin-left: 50%;
+}
 
