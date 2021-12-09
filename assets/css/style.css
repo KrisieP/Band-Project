@@ -163,6 +163,7 @@ h5 {
 }
 
 .table-back-box {
+    /*margin: 0 auto ;- sugestion from Ana_5P in slack that fixed centering issue*/
     margin: 0 auto ;
     margin-top: 6rem;
     width: 50%;
@@ -181,6 +182,27 @@ caption {
     border-radius: 1rem 1rem;
     text-align: center;
     caption-side: bottom;
+}
+
+/*Gallery*/
+
+.gallery-background {
+    height: 100rem;
+    width: 100%;
+    background-color: #a58869;
+}
+
+.gallery-header {
+    font-size: 3rem;
+    color: #fffffb;
+    height: 100%;
+    margin: 0;
+    padding: 1rem;
+    text-align: center;
+}
+
+.slideshow-width {
+    margin: 5rem 5rem;
 }
 
 /*footer*/
