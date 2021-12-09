@@ -163,11 +163,9 @@ h5 {
 }
 
 .table-back-box {
-    position: absolute;
-    top: 22rem;
-    left: 30rem;
+    margin: 0 auto ;
+    margin-top: 6rem;
     width: 50%;
-    margin: 0;
     text-align: center;
     background-color: rgba(37, 38, 44, 0.877);
     border-radius: 1rem 1rem;
@@ -231,3 +229,4 @@ footer {
     margin-left: 50%;
 }
 
+/*Media Queries*/
