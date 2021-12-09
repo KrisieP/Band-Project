@@ -175,8 +175,7 @@ h5 {
 
 caption {
     margin-top: 1rem;
-    padding-top: .75rem;
-    padding-bottom: .75rem;
+    padding: .75rem;
     color: #ffffff;
     background-color: rgba(37, 38, 44, 0.877);
     border-radius: 1rem 1rem;
@@ -187,7 +186,7 @@ caption {
 /*Gallery*/
 
 .gallery-background {
-    height: 100rem;
+    height: 100%;
     width: 100%;
     background-color: #a58869;
 }
@@ -203,6 +202,12 @@ caption {
 
 .slideshow-width {
     margin: 5rem 5rem;
+}
+
+.carousel {
+    position: relative;
+    margin: 5rem;
+    height: 100%;
 }
 
 /*footer*/
@@ -252,3 +257,22 @@ footer {
 }
 
 /*Media Queries*/
+
+@media (max-width: 450px) {
+    .events-background-image{
+        height: 100vh;
+        background: url("../images/IMG_20190528_172445_497.jpg") repeat-x center; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        font-size: 1.1rem;
+    }
+    .background-wrapper-events {
+        position: absolute;
+        left: 0;
+        height: 100vh;
+        width: 100%;
+        background-color: rgba(0,0,0,0.5);
+    }
+}
