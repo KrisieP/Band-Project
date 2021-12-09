@@ -22,11 +22,6 @@ h5 {
     font-family: "Lora", sans-serif;
 }
 
-.row {
-    margin-left: 0;
-    margin-right: 0;
-}
-
 /*Navbar*/
 
 .navbar-custom {
@@ -50,7 +45,7 @@ h5 {
 }
 
 .hero-title {
-    font-size: 16vmin;
+    font-size: 14vmin;
     color: #d6d6d6;
     font-weight: 300;
     text-align: left;
@@ -63,6 +58,10 @@ h5 {
 .hero-col {
     margin: 0;
     padding: 0;
+}
+
+.Subscribe-header {
+    font-size: 2rem;
 }
 
 .hero-sub {
@@ -113,11 +112,18 @@ h5 {
 
 .feature-box {
     background-color: rgba(79, 80, 85, 0.575);
-    margin: 0px;
     border-radius: 1rem 1rem;
     display: inline-block;
     text-align: center;
     color: #d6d6d6;
+}
+
+.feature-box-heads{
+    padding: 0.7rem;
+}
+
+.feature-box-content {
+    padding: 0.7rem;
 }
 
 .band-feature {
@@ -126,6 +132,57 @@ h5 {
 
 .band-feature .row {
     padding: .5rem 1.5rem 2.5rem 1.5rem;
+}
+
+/*Events*/
+
+.events-background-image{
+    height: 80vh;
+    background: url("../images/IMG_20190528_172445_497.jpg") no-repeat center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.background-wrapper-events {
+    position: absolute;
+    left: 0;
+    height: 80vh;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.events-head {
+    font-size: 10vmin;
+    color: #fffffb;
+    height: 100%;
+    margin: 0;
+    padding: 1rem;
+    text-align: center;
+}
+
+.table-back-box {
+    position: absolute;
+    top: 22rem;
+    left: 30rem;
+    width: 50%;
+    margin: 0;
+    text-align: center;
+    background-color: rgba(37, 38, 44, 0.877);
+    border-radius: 1rem 1rem;
+    color: #fffffb;
+}
+
+caption {
+    margin-top: 1rem;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    color: #ffffff;
+    background-color: rgba(37, 38, 44, 0.877);
+    border-radius: 1rem 1rem;
+    text-align: center;
+    caption-side: bottom;
 }
 
 /*footer*/
