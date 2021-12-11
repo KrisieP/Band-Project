@@ -197,7 +197,7 @@ caption {
     color: #fffffb;
     height: 100%;
     margin: 0;
-    padding: 1rem;
+    padding-top: 4rem;
     text-align: center;
 }
 
@@ -209,6 +209,15 @@ caption {
     position: relative;
     margin: 5rem;
     height: 100%;
+}
+
+.video-header {
+    font-size: 3rem;
+    color: #fffffb;
+    height: 100%;
+    margin-bottom: 4rem;
+    padding: 1rem;
+    text-align: center;
 }
 
 /*footer*/
