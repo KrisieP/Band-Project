@@ -218,7 +218,7 @@ caption {
 
 .carousel {
     position: relative;
-    margin: 5rem;
+    margin: 5rem 2.5rem;
     height: 100%;
 }
 
@@ -254,6 +254,10 @@ caption {
 
 .contact-us-sub-head {
     margin-bottom: 3.5rem;
+}
+
+.phone {
+    font-size: 1rem;
 }
 
 .contact-button {
