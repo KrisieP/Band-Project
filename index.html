@@ -14,28 +14,28 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-md navbar-light navbar-custom">
-            <a href="test.html" type="button" class="btn btn-primary" href="#" aria-label="contact us page">Contact
+            <a href="#contact-us" type="button" class="btn btn-primary" aria-label="contact us page">Contact
                 Us</a>
             <a href="#" class="navbar-toggler nav-but" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" id="home">
                 <span class="navbar-toggler-icon"></span>
             </a>
             <div class="collapse navbar-collapse navbar-links" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
+                        <a class="nav-link nav-home" href="#home">Home <span class="sr-only"></span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About Us</a>
+                        <a class="nav-link" href="#about-us">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Live Events</a>
+                        <a class="nav-link" href="#live-events">Live Events</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Gallery</a>
+                        <a class="nav-link" href="#gallery">Gallery</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Social Media Links</a>
+                        <a class="nav-link" href="#footer">Social Media Links</a>
                     </li>
                 </ul>
             </div>
@@ -57,7 +57,7 @@
         </section>
     </header>
     <section class="container-fluid band-feature">
-        <h1 class="feature-head"><u> We are the duet for you!</u>
+        <h1 class="feature-head"><a id="about-us"><u>We are the duet for you!</u></a>
         </h1>
         <div class="row">
             <div class="col-12 col-md-4 feature-box">
@@ -94,7 +94,7 @@
         <div class="background-wrapper-events"></div>
         <div class="row">
             <div class="col-12">
-                <h1 class="events-head">Live Events!</h1>
+                <h1 class="events-head"><a id="live-events">Live Events!</a></h1>
             </div>
         </div>
         <div class="row">
@@ -140,7 +140,7 @@
         </div>
     </section>
     <section class="gallery gallery-background">
-        <h1 class="gallery-header">Check some snaps of us hitting it for crowd</h1>
+        <h1 class="gallery-header"><a id="gallery">Check some snaps of us hitting it for crowd</a></h1>
         <div id="carousel-indicators slideshow-width" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carousel-indicators" data-slide-to="0" class="active"></li>
@@ -156,27 +156,22 @@
                     <img class="d-block w-100" src="assets/images/slideshow-images/bwrobtongue.jpg" alt="First slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="assets/images/slideshow-images/bwjam1.jpg"
-                        alt="Second slide">
+                    <img class="d-block w-100" src="assets/images/slideshow-images/bwjam1.jpg" alt="Second slide">
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100" src="assets/images/slideshow-images/bwjam2.jpg" alt="Third slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="assets/images/slideshow-images/bwjam3.jpg"
-                        alt="Fourth slide">
+                    <img class="d-block w-100" src="assets/images/slideshow-images/bwjam3.jpg" alt="Fourth slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="assets/images/slideshow-images/cljam1.jpg"
-                        alt="Fifth slide">
+                    <img class="d-block w-100" src="assets/images/slideshow-images/cljam1.jpg" alt="Fifth slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="assets/images/slideshow-images/cljam2.jpg"
-                        alt="sixth slide">
+                    <img class="d-block w-100" src="assets/images/slideshow-images/cljam2.jpg" alt="sixth slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="assets/images/slideshow-images/cljam3.jpg"
-                        alt="seventh slide">
+                    <img class="d-block w-100" src="assets/images/slideshow-images/cljam3.jpg" alt="seventh slide">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carousel-indicators" role="button" data-slide="prev">
@@ -188,24 +183,51 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
-        <h1 class="video-header">Black Betty recorded Live @ <a href="https://onelouderstudios.com/">One Louder Studio</a></h1>
+        <h1 class="video-header">Black Betty recorded Live @ <a href="https://onelouderstudios.com/">One Louder
+                Studio</a></h1>
         <div class="home-video">
             <div class="embed-responsive embed-responsive-16by9">
                 <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/_ONnYROULlU"></iframe>
             </div>
         </div>
     </section>
+    <Section class="container-fluid form-container">
+        <h1 class="contact-us-header"><a id="contact-us">Contact Us</a></h1>
+        <h4 class="contact-us-sub-head">Please complete the form below to booking our sexy skill set for your venue!</h4>
+        <form class="form-main">
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Full Name</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="First & Last Name"
+                    required>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email Address"
+                    required>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Phone Number (not required)</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Telephone Number">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Event & Enquiry Details</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                    placeholder="Please provided dates, event type, location, length of play time & any other relevant details"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary mb-2">Submit Enquiry</button>
+    </Section>
     <footer class="container-fluid">
+        <a id="footer"></a>
         <div class="row">
             <div class="col-sm-6 soc-med-foot">
                 <a>
                     <p>Social Media</p>
                 </a>
-                <a href="https://www.facebook.com/" aria-label="follow to facebook page"><i
+                <a href="https://www.facebook.com/TheLlewellinDuo/" aria-label="follow to facebook page"><i
                         class="fab fa-facebook-square footer-icons"></i></a>
-                <a href="#" aria-label="follow to youtube channel"><i
+                <a href="https://www.youtube.com/channel/UC6UMqnvrXb9MoYl00LiPpaw" aria-label="follow to youtube channel"><i
                         class="fab fa-youtube-square footer-icons"></i></a>
-                <a href="#" aria-label="follow to instagram page"><i
+                <a href="https://www.instagram.com/thellewellinduo/" aria-label="follow to instagram page"><i
                         class="fab fa-instagram-square footer-icons"></i></a>
             </div>
             <div class="col-sm-3 foot-butt-title">
@@ -217,11 +239,10 @@
             </div>
             <div class="col-sm-3 foot-butt-title">
                 <a>
-                    <p>Click below to hit us up!</p>
+                    <p>Return to top of the page</p>
                 </a>
-                <a href="#" type="button" class="btn btn-primary footer-button" href="#"
-                    aria-label="redirect to contact us form">Contact
-                    Us</a>
+                <a href="#home" type="button" class="btn btn-primary footer-button"
+                    aria-label="redirect to top of the page">Home</a>
             </div>
         </div>
     </footer>
@@ -230,7 +251,8 @@
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title justify-content-center" id="subscriptionmodalcenter">Keep up to date with our
+                    <h5 class="modal-title justify-content-center uppercase" id="subscriptionmodalcenter">Keep up to
+                        date with our
                         upcoming
                         events!</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">

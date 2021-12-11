@@ -20,6 +20,7 @@ h3,
 h4,
 h5 {
     font-family: "Lora", sans-serif;
+    font-weight: 300;
 }
 
 .row {
@@ -35,6 +36,16 @@ h5 {
 
 .navbar-links a{
     color: #bb6707;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0 0 0);
+    font-family: "Exo", sans-serif;
+}
+
+.nav-home {
+    font-weight: 700;
+    font-family: "Exo", sans-serif;
 }
 
 /*Hero Image Section*/ 
@@ -218,6 +229,30 @@ caption {
     margin-bottom: 4rem;
     padding: 1rem;
     text-align: center;
+}
+
+/*Form*/
+
+.form-container {
+    width: 100%;
+}
+
+.form-main {
+    width: 100%;
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.contact-us-header,
+.contact-us-sub-head {
+    width: 100%;
+    max-width: 50%;
+    margin: 1rem auto;
+    text-align: center;
+}
+
+.contact-us-sub-head {
+    margin-bottom: 3rem;
 }
 
 /*footer*/
