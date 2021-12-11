@@ -22,11 +22,15 @@ h5 {
     font-family: "Lora", sans-serif;
 }
 
+.row {
+    width: 100%;
+    margin: 0 auto;
+}
+
 /*Navbar*/
 
 .navbar-custom {
-    background: #be9b2b;
-    height: 4.4rem;
+    background: #8b8a91;
 }
 
 .navbar-links a{
@@ -42,6 +46,13 @@ h5 {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    padding: 0;
+}
+
+.background-wrapper {
+    height: 80vh;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
 }
 
 .hero-title {
@@ -65,8 +76,7 @@ h5 {
 }
 
 .hero-sub {
-    position: absolute;
-    bottom: 20rem;
+    margin: 12rem auto;
     text-align: center;
     font-size: 2rem;
 }
@@ -89,15 +99,6 @@ h5 {
     border-width: 1px;
     border-color: #000000;
     background-color: #bb6707;
-}
-
-.background-wrapper {
-    position: absolute;
-    top: 4.4rem;
-    left: 0;
-    height: 80vh;
-    width: 100%;
-    background-color: rgba(0,0,0,0.5);
 }
 
 /*feature*/
