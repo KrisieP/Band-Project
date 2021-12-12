@@ -120,6 +120,7 @@ h5 {
     margin-bottom: 1.5rem;
     padding: 1rem;
     text-align: center;
+    text-decoration: underline;
 }
 
 .feature-box {
@@ -240,14 +241,18 @@ caption {
 
 .form-main {
     width: 100%;
-    max-width: 50%;
+    max-width: 80%;
     margin: 0 auto;
+}
+
+.contact-us-header {
+    text-decoration: underline;
 }
 
 .contact-us-header,
 .contact-us-sub-head {
     width: 100%;
-    max-width: 50%;
+    max-width: 65%;
     margin: 1rem auto;
     text-align: center;
 }
