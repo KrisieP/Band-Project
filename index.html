@@ -15,9 +15,9 @@
     <header>
         <!--MAin navigation bar-->
         <nav class="navbar navbar-expand-md navbar-light navbar-custom">
-            <a href="#contact-us" type="button" class="btn btn-primary" aria-label="contact us page">Contact
+            <a href="#contact-us" class="btn btn-primary" aria-label="contact us page">Contact
                 Us</a>
-            <a href="#" class="navbar-toggler nav-but" type="button" data-toggle="collapse" data-target="#navbarNav"
+            <a href="#" class="navbar-toggler nav-but" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" id="home">
                 <span class="navbar-toggler-icon"></span>
             </a>
@@ -49,7 +49,7 @@
                     <div class="col-12 hero-sub">
                         <div class="sub-box">
                             <h5 class="Subscribe-header">Subscribe for our latest event updates!</h5>
-                            <a href="#" type="button" class="btn btn-primary" data-toggle="modal"
+                            <a href="#" class="btn btn-primary" data-toggle="modal"
                                 data-target="#subscriptionmodalcenter"
                                 aria-label="redirect to contact us form">Subscribe</a>
                         </div>
@@ -146,7 +146,7 @@
     <!--Main photo gallery section with slideshow and embedded youtube video-->
     <section class="gallery gallery-background">
         <h1 class="gallery-header"><a id="gallery">Check some snaps of us hitting it for crowd</a></h1>
-        <div id="carousel-indicators slideshow-width" class="carousel slide" data-ride="carousel">
+        <div id="carousel-indicators" class="carousel slide slideshow-width" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carousel-indicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carousel-indicators" data-slide-to="1"></li>
@@ -203,22 +203,22 @@
         </h4>
         <form class="form-main">
             <div class="form-group">
-                <label for="exampleFormControlInput1">Full Name</label>
-                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="First & Last Name"
+                <label for="name">Full Name</label>
+                <input type="text" class="form-control" id="name" placeholder="First & Last Name"
                     required>
             </div>
             <div class="form-group">
-                <label for="exampleFormControlInput1">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email Address"
+                <label for="emailaddress">Email address</label>
+                <input type="email" class="form-control" id="emailaddress" placeholder="Email Address"
                     required>
             </div>
             <div class="form-group">
-                <label for="exampleFormControlInput1">Phone Number <span class="phone">(not required)</span></label>
-                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Telephone Number">
+                <label for="phonenumber">Phone Number <span class="phone">(not required)</span></label>
+                <input type="text" class="form-control" id="phonenumber" placeholder="Telephone Number">
             </div>
             <div class="form-group">
-                <label for="exampleFormControlTextarea1">Event & Enquiry Details</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"
+                <label for="enquirytextarea">Event & Enquiry Details</label>
+                <textarea class="form-control" id="enquirytextarea" rows="6"
                     placeholder="Please provided dates, event type, location, length of play time & any other relevant details" required></textarea>
             </div>
             <button type="submit" class="btn btn-primary mb-2 contact-button">Submit Enquiry</button>
@@ -244,14 +244,14 @@
                     <p>Click below to subscribe!</p>
                 </a>
                 <a href="#" type="button" class="btn btn-primary footer-button" data-toggle="modal"
-                    data-target="#subscriptionmodalcenter" aria-label="redirect to contact us form">Subscribe</a>
+                    data-target="#subscriptionmodalcenter" aria-label="Subscribe to band updates">Subscribe</a>
             </div>
             <div class="col-sm-3 foot-butt-title">
                 <a>
                     <p>Return to top of the page</p>
                 </a>
                 <a href="#home" type="button" class="btn btn-primary footer-button"
-                    aria-label="redirect to top of the page">Home</a>
+                    aria-label="return to top of website">Home</a>
             </div>
         </div>
     </footer>
@@ -265,25 +265,21 @@
                         date with our
                         upcoming
                         events!</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <a href="#" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
-                    </button>
+                    </a>
                 </div>
                 <form id="modal-form">
                     <div class="form-group">
                         <div class="form-group">
                             <label for="name">Full Name</label>
-                            <input type="text" class="form-control" id="name" placeholder="Full Name" required>
+                            <input type="text" class="form-control" id="name" placeholder="Enter Name" required>
                         </div>
                         <label for="email">Email address</label>
                         <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
-                            placeholder="Enter email">
-                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                            placeholder="Enter Email" required>
+                        <small id="emailHelp" class="form-text text-muted">We will never share your email with anyone
                             else.</small>
-                    </div>
-                    <div class="form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
                     </div>
                     <button type="submit" class="btn btn-primary modal-button">Submit</button>
                 </form>

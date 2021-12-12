@@ -307,8 +307,9 @@ footer {
 
 .modal-button {
     padding-top: 0.5rem;
-    margin-left: 50%;
+    margin: 0.5rem;
 }
+
 
 /*Media Queries*/
 
