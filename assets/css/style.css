@@ -150,6 +150,10 @@ h5 {
     padding: .5rem 1.5rem 2.5rem 1.5rem;
 }
 
+.aboutus-contactlink {
+    color: #2700ff;
+}
+
 /*Events*/
 
 .events-background-image{
