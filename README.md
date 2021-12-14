@@ -99,7 +99,7 @@ Any questions, please feel free to contact me via my github page. Thanks!
 
 <a></a>
 #### Expectations
-* When clicking on links, I expect the page to open in a new tab window
+* When clicking on external links, I expect the page to open in a new tab window
 * When clicking to subscribe, i expect the simple completion form to open in to a modal popup box within the same page.
 * I expect a 'Success' notification when submitting the contact form to confirm that submitted correctly
 * For all nav links to work correctly, whether it be to a different location on the same page or to a location on a seperate page.
@@ -109,7 +109,7 @@ Any questions, please feel free to contact me via my github page. Thanks!
 
 <a></a>
 ### **Design Choices**
-[Coolors](https://coolors.co/ "Coolors.co") and [Color Hunt](https://colorhunt.co/)
+I looked through the  website [coolors](https://coolors.co/) but i couldn't settle on a pallet that would suit the band so i have spent time looking through colours using the dev tools until i found what i felt reprisented the bands vibe while still providing suitable contrast to buttons, backgrounds and content.
 
 <a></a>
 #### Fonts
@@ -121,11 +121,11 @@ I paired font-family: 'Lora' with Lato for my headings, i read this was a popula
 
 <a></a>
 #### Icons
-I have decided to implement icons, using the [Font Awesome library](https://fontawesome.com/ "Font Awesome").
+I have decided to implement icons, using the [Font Awesome library](https://fontawesome.com/ "Font Awesome"). I have used a minimalalistic aproach to icons on my website, I've used them for the purpose of social media links and nothing else as i beleive this is their main purpose in this design.
 
 <a></a>
 #### Colors
-(https://colorhunt.co/palette/193637).
+
 
 
 <a></a>
@@ -146,11 +146,11 @@ I have a four page design which i believe will be the best approach in order to 
 
 You can find my wireframes below:
 
-### [Desktop Wireframe]
+### [Desktop Wireframe](/wireframes/desktop.png)
 
-### [Tablet Wireframe]
+### [Tablet Wireframe](/wireframes/tablet.png)
 
-### [Mobile Wireframe]
+### [Mobile Wireframe](/wireframes/mobile.png)
 
 
 [Back to Top](#table-of-contents)
