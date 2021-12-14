@@ -199,7 +199,7 @@ h5 {
 caption {
     margin-top: 1rem;
     padding: .75rem;
-    color: #ffffff;
+    color: #fffffb;
     background-color: rgba(37, 38, 44, 0.877);
     border-radius: 1rem 1rem;
     text-align: center;
@@ -331,21 +331,3 @@ footer {
 
 /*Media Queries*/
 
-@media (max-width: 450px) {
-    .events-background-image{
-        height: 100vh;
-        background: url("../images/IMG_20190528_172445_497.jpg") repeat-x center; 
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        font-size: 1.1rem;
-    }
-    .background-wrapper-events {
-        position: absolute;
-        left: 0;
-        height: 100vh;
-        width: 100%;
-        background-color: rgba(0,0,0,0.5);
-    }
-}

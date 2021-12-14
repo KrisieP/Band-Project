@@ -125,7 +125,17 @@ I have decided to implement icons, using the [Font Awesome library](https://font
 
 <a></a>
 #### Colors
+The colours i have used for the website are as follows;
 
+* #a58869 = This is my main background colour as i feel it represents a natural wooden colour whilts not drawing you away from the foreground which i want the use to concentrate on.
+* #8b8a91 = I have chosen to use this grey for my header and footer it's subtle and follows suit with the theme of using greys throughout the website and the band also tend to like black and white photography over colour, so i felt this taylors to their general preferences.
+* #bb6707 = This orange was chosen for buttons & social media links for two key reasons, firstly the band have enjoyed using orange on their promotional flyers in the past so this falls in line both what they like but also what their followers expect/feel they should be seeing and secondly it also provides a beautiful striking contrast to stand out, getting users to subscribe, contact them and view further content via their social media outlets.
+
+* rgba(79, 80, 85, 0.575)
+  rgba(0,0,0,0.5)
+  rgba(37, 38, 44, 0.877) = I have used a few different shades of translucent grey to provide contrast to some of my content fields where i felt is was required. I didn't want to lose the background image behind the content enterly but also didn't want the background image to draw the user way from the content i want them to see.
+* #d6d6d6 = This off white make the pefect colour for content as it won't be too harsh on the eyes for user's when reading larger blocks of text.
+* #fffffb = This is a bright white that will be used in areas when i want text to be striking and really stand out from it's background such as certain header and the live events table.
 
 
 <a></a>
