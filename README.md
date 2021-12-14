@@ -235,8 +235,6 @@ In the event and enquiry details section I have used some decriptive place holde
 * [Balsamic](https://balsamiq.com/wireframes/)
 * [W3C HTML Validation Service](https://validator.w3.org/)
 * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
-* [techsini](http://techsini.com/)
-* [Tiny PNG](https://tinypng.com/)
 
 
 [Back to Top](#table-of-contents)
