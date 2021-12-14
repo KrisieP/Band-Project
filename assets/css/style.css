@@ -86,13 +86,12 @@ h5 {
 }
 
 .Subscribe-header {
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
 
 .hero-sub {
     margin: 12rem auto;
     text-align: center;
-    font-size: 2rem;
 }
 
 .sub-box {
@@ -129,16 +128,17 @@ h5 {
 .feature-box {
     background-color: rgba(79, 80, 85, 0.575);
     border-radius: 1rem 1rem;
-    display: inline-block;
     text-align: center;
     color: #d6d6d6;
 }
 
 .feature-box-heads{
     padding: 0.7rem;
+    text-decoration: underline;
 }
 
 .feature-box-content {
+    font-size: 1.6rem;
     padding: 0.7rem;
 }
 
@@ -152,12 +152,13 @@ h5 {
 
 .aboutus-contactlink {
     color: #2700ff;
+    text-decoration: underline;
 }
 
 /*Events*/
 
 .events-background-image{
-    height: 80vh;
+    height: 100%;
     background: url("../images/IMG_20190528_172445_497.jpg") no-repeat center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -181,11 +182,11 @@ h5 {
     padding: 1rem;
     text-align: center;
 }
-
 .table-back-box {
     /*margin: 0 auto ;- sugestion from Ana_5P in slack that fixed centering issue*/
-    margin: 0 auto ;
+    margin: 0 auto;
     margin-top: 6rem;
+    margin-bottom: 8rem;
     width: 50%;
     text-align: center;
     background-color: rgba(37, 38, 44, 0.877);
@@ -212,7 +213,6 @@ caption {
 }
 
 .gallery-header {
-    font-size: 3rem;
     color: #fffffb;
     height: 100%;
     margin: 0;
@@ -231,7 +231,6 @@ caption {
 }
 
 .video-header {
-    font-size: 3rem;
     color: #fffffb;
     height: 100%;
     margin-bottom: 4rem;
@@ -279,38 +278,43 @@ caption {
 /*footer*/
 
 footer {
-    height: 100%;
+    height: 80%;
     margin: 0;
     padding: 1rem 0;
     background: #8b8a91;
 }
 
 .soc-med-foot {
-    font-size: 2.2rem;
+    text-align: center;
+}
+
+.soc-med-foot p {
+    margin-bottom: 0;
     text-align: center;
 }
 
 .soc-med-foot a {
-    padding-right: 2rem;
+    font-size: 2.7rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
     color: #bb6707;
 }
 
-.soc-med-foot p {
-    font-size: 2.2rem;
+.soc-med-foot {
+    font-size: 1.6rem;
     margin: 0;
+    align-content: center;
 }
 
-.footer-button {
-    vertical-align: 50%;
-    position: relative;
-    bottom: 0.8rem;
-    
-}
-
-.foot-butt-title {
-    font-size: 2.2rem;
+.foot-butt-cont {
     text-align: center;
-    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-buttons {  
+    margin: 0.8rem;
 }
 
 #modal-form {
