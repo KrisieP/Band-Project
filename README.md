@@ -130,7 +130,6 @@ The colours i have used for the website are as follows;
 * #a58869 = This is my main background colour as i feel it represents a natural wooden colour whilts not drawing you away from the foreground which i want the use to concentrate on.
 * #8b8a91 = I have chosen to use this grey for my header and footer it's subtle and follows suit with the theme of using greys throughout the website and the band also tend to like black and white photography over colour, so i felt this taylors to their general preferences.
 * #bb6707 = This orange was chosen for buttons & social media links for two key reasons, firstly the band have enjoyed using orange on their promotional flyers in the past so this falls in line both what they like but also what their followers expect/feel they should be seeing and secondly it also provides a beautiful striking contrast to stand out, getting users to subscribe, contact them and view further content via their social media outlets.
-
 * rgba(79, 80, 85, 0.575)
   rgba(0,0,0,0.5)
   rgba(37, 38, 44, 0.877) = I have used a few different shades of translucent grey to provide contrast to some of my content fields where i felt is was required. I didn't want to lose the background image behind the content enterly but also didn't want the background image to draw the user way from the content i want them to see.
@@ -184,8 +183,84 @@ I have decided to implement a hero image which spreads over 100% width of the sc
 The image responds well when viewing on desktop, tablet and mobile.
 
 
-<a></a>
-## **Bugs**
+#### About Us Section
 
-* All mobile devices had a white border down the right hand side of the screen.
-     * Fix - html, body {overflow-x:hidden} - Solution found -  [here](https://stackoverflow.com/questions/14270084/overflow-xhidden-doesnt-prevent-content-from-overflowing-in-mobile-browsers/14271049#:~:text=html%2C%20body%20%7B%0A%20%20overflow%2Dx%3Ahidden%20%0A%7D)
+Here I used the grid from Bootstrap to create 3 colums on desktop & tablet view which turn into full width stacked columns on mobile devices. To help separate the columns i will provide a dark translucent boxes to each field. 
+
+#### Live Events Section
+
+For the live events section i will use a responsive background image of the band playing live that will fill the screen on all devices sizes. 
+
+I will implement a table to nest all upcoming event dates, locations and times whilst each location will also be a link to the venues websites for eas of users to be able to contact said venue to enquire to booking tickets to see the band play. This table will be responsive to all device sizes and have a width of 50% to not tke up the screens real-estate as the back ground will also help to represent what an event setting could look like.
+
+#### Gallery Section
+
+For the gallery images i have decided to use a bootstrap carosel slide show as i felt a gallery with lots of images across the section would take away from the website clean and easy to view look. 
+
+I decided against filling the screen width for the carosel as i wanted it to taper into the bands main content for the section, their live studio recording which is in the form of a youtube embeded video spaning a 100% width of the page on all device sizes as it's the main focal point of the section and something the band want to be prominant on the website to help encourage users to book them.
+
+
+#### Contact Us Section
+
+In the contact-us section i have made the following filed manditory to complete Name, Email, Enquiry Description, I have chosen to leave the phone number as non-complusory as most users do not like to provide phone numbers upon making enquiries as a whole so doing this should help to build the level of enquiries the band recieve.
+
+In the event and enquiry details section I have used some decriptive place holder text to help guide the user into what they would need to let tyhe band know what they want for booking, this will help the band with returning a comprehensive reply.
+
+
+<a></a>
+
+
+[Back to Top](#table-of-contents)
+
+<a></a>
+## **Technologies used**
+<a></a>
+### **Languages**
+
+* [HTML](https://en.wikipedia.org/wiki/HTML)
+* [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+
+<a></a>
+
+### **Libraries & Frameworks**
+
+* [Font Awesome](https://fontawesome.com/)
+* [Bootstrap](https://getbootstrap.com/)
+* [Google Fonts](https://fonts.google.com/)
+
+### **Tools**
+* [Git](https://git-scm.com/)
+* [GitPod](https://www.gitpod.io/)
+* [Balsamic](https://balsamiq.com/wireframes/)
+* [W3C HTML Validation Service](https://validator.w3.org/)
+* [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+* [techsini](http://techsini.com/)
+* [Tiny PNG](https://tinypng.com/)
+
+
+[Back to Top](#table-of-contents)
+
+<a></a>
+
+## **Deployment**
+
+This project was deployed via GitHub by executing the following steps.
+After writing the code, committing and pushing it to GitHub:
+
+1. Navigate to the repository on github and click **Settings**.
+1. From there, go to the **Source section** within the Github Pages section.
+1. Select **master branch** on the dropdown menu, and click save.
+1. Now the website is live on **https://krisiep.github.io/Band-Project/**
+1. Any time commits and pushes are sent to Github, the Github Pages site should update shortly after.
+
+To run the project locally:
+
+1. Click the **green Clone or Download button** on the Github Repository
+1. Using the **Clone with HTTPS option**, copy the link displayed.
+1. Open your IDE, and ensure the Git Terminal is open.
+1. Change the working directory to the location where the cloned directory is to go.
+1. Use the **"git clone" command** and paste the url copied in the second step.
+
+
+[Back to Top](#table-of-contents)
