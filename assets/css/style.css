@@ -346,6 +346,12 @@ footer {
     margin: 0.5rem;
 }
 
+.fa-facebook-square:hover,
+.fa-youtube-square:hover,
+.fa-instagram-square:hover {
+    color: #0069d9;
+}
+
 
 /*Media Queries*/
 
