@@ -1,6 +1,6 @@
 # The Llewellin Duo - First Milestone Project
 
-![Mokeup image](wireframes/mokeup-image.png)
+![Mockup image](wireframes/mockup-image.png)
 
 ## **Goal for this project** 
 
@@ -236,6 +236,7 @@ In the event and enquiry details section I have used some decriptive place holde
 * [Balsamic](https://balsamiq.com/wireframes/)
 * [W3C HTML Validation Service](https://validator.w3.org/)
 * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+* [techsini](http://techsini.com/)
 
 
 [Back to Top](#table-of-contents)
@@ -266,24 +267,23 @@ On mobile the navigation transformed into the hamburger sign with a dropdown men
 * **Verdict**    
 
 
-### Modals
+### Modal
 
 * **Plan**    
 I will implement a modal into my subscribe buttons as i want to it to be a quick subscription method.
 
 * **Implementation**    
 I have used bootstrap to implement my modal as i have not yet learnt javascript. I found a base template and taylored the html to make the modal work best for the website, making the modal appear in the center of the page when it pops up. After this i used css to style the modal making it fall inline with the design of website.
-<!--
+
 * **Test**    
-I have tested both modals on various devices and browsers. 
-The modal was nicely centered and feels in line with the overall website. 
-The promotion modal is being triggered by clicking the button and the submitting modal is triggered whenever the form was filled in correctly. 
--->
+Upon testing my modal on different browsers and device sizes it appears nicely in the middle of the screen and found no issues.
+
 * **Result**    
-The modals opened up when the correct button was clicked and appeared centered on the screen.
+The modal opened up when the subscribe button was clicked and appeared in the center of the screen as designed.
 
 * **Verdict**    
-The modals works as planned and met all the criteria. 
+The modal works as planned and met all the criteria. 
+
 
 ### Gallery Carousel 
 
@@ -302,7 +302,7 @@ I couldn't get the previous and next buttons to work correctly as there appears 
 The slide show sits and works as expected cycling automatically through the pictures. Previous and Next buttons did not work so pulled them from the design.
 
 * **Verdict**    
-The slideshow met all the main criteria i was trying to acheive, the buttons do not work which  minor and and fine. 
+The buttons do not work which minor and not the main requirement in my design. The slideshow met all the main criteria i was trying to acheive. 
 
 
 ### Contact Form 
@@ -316,18 +316,17 @@ Whenever they submit the form, i want the form to reset when it has been submitt
 Again i have used bootstrap to implement my form, I used online instruction from the bootstrap to build my form using 3 input fields, 1 textarea field and a submit button. I have used both lables and placholders as i felt it looks better this way.
 Again i used css to style the form to bring it inline with the overall website design.
 
-<!--
+
 * **Test**    
-When I tested the form, I noticed that the modal opened up eventhough the form was not filled in. 
-This gave the wrong feedback to the user. As I didn't have the required skills to implement form validation, I discussed this with my mentor. 
-My mentor wrote a small part of JavaScript which I was able to implement in order for the form not being able to be submitted without the required fields being filled in. 
-The data that is being inserted is currently not send anywhere as I don't have the knowledge yet but this is on the list with future features to be implemented. 
--->
+
+
+
 * **Result**    
-The mandatory fields worked as planned and the form refreshes upon submition.
+
 
 * **Verdict**    
-The form met all the criteria and works as planned. 
+
+
 
 [Back to Top](#table-of-contents)
 
