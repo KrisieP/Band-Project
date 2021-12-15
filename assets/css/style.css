@@ -257,7 +257,7 @@ caption {
 
 .form-main {
     width: 100%;
-    max-width: 75%;
+    max-width: 70%;
     margin: 0 auto;
 }
 
@@ -344,5 +344,9 @@ footer {
         width: 100%;
         max-width: 60%;
         margin: 0 auto;
+    }
+
+    .form-control{
+        font-size: 1.3rem;
     }
 }
