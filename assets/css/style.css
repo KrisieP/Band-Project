@@ -335,6 +335,7 @@ footer {
 
 .footer-buttons {  
     margin: 0.8rem;
+    width: 10rem;
 }
 
 #modal-form {
