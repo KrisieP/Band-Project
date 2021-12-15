@@ -128,13 +128,13 @@ h5 {
 .feature-box {
     background-color: rgba(79, 80, 85, 0.575);
     border-radius: 1rem 1rem;
-    text-align: center;
     color: #d6d6d6;
 }
 
 .feature-box-heads{
     padding: 0.7rem;
     text-decoration: underline;
+    text-align: center;
 }
 
 .feature-box-content {
