@@ -232,10 +232,102 @@ In the event and enquiry details section I have used some decriptive place holde
 ### **Tools**
 * [Git](https://git-scm.com/)
 * [GitPod](https://www.gitpod.io/)
+* [Paint 3D](https://www.microsoft.com/en-gb/p/paint-3d/9nblggh5fv99?activetab=pivot:overviewtab)
 * [Balsamic](https://balsamiq.com/wireframes/)
 * [W3C HTML Validation Service](https://validator.w3.org/)
 * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
 
+
+[Back to Top](#table-of-contents)
+
+<a></a>
+## **Testing**
+
+### Navigation bar
+
+* **Plan**    
+I want to have a static Nav bar that sticks to the top of the page, when in desktop and tablet view i want the navigation menu to be in a inline list across the nav bar, when in mobile view i want the menu to fall into a hamburger style dropdown menu to help keep the design clean and not over crowded.
+I also want on the left hand side(the opposing side to the nav menu), to have a 'contact us' button to drive users into making an enquiry.
+
+* **Implementation**   
+I implemented the navigation bar using Bootstrap which made is responsive to all device sizes. 
+I have used CSS to style the navbar to bring it inline with design of the rest of the site.
+I have used Bootstrap to implement the hamburger icon dropdown menu for mobile devices only. 
+
+* **Test**    
+To test the navigation bar, I have click all the links to make sure it works properly. 
+I have also opened the website in various browers (safari, google chrome, mozilla firefox) to make sure it works on all browsers and devices.
+I also double checked the scrollspy on the various browsers and devices. 
+On mobile the navigation transformed into the hamburger sign with a dropdown menu.
+
+* **Result**    
+
+
+* **Verdict**    
+
+
+### Modals
+
+* **Plan**    
+I will implement a modal into my subscribe buttons as i want to it to be a quick subscription method.
+
+* **Implementation**    
+I have used bootstrap to implement my modal as i have not yet learnt javascript. I found a base template and taylored the html to make the modal work best for the website, making the modal appear in the center of the page when it pops up. After this i used css to style the modal making it fall inline with the design of website.
+<!--
+* **Test**    
+I have tested both modals on various devices and browsers. 
+The modal was nicely centered and feels in line with the overall website. 
+The promotion modal is being triggered by clicking the button and the submitting modal is triggered whenever the form was filled in correctly. 
+-->
+* **Result**    
+The modals opened up when the correct button was clicked and appeared centered on the screen.
+
+* **Verdict**    
+The modals works as planned and met all the criteria. 
+
+### Gallery Carousel 
+
+* **Plan**    
+I want to have a gallery slideshow with around 6 photos on constant rotation, i would like to have previous and next buttons to control the slide show.
+I plan to have the slide  fill just under the full screen width as i want it to appear windowed on the page and step into the embedded youtube video below.
+
+* **Implementation**    
+Again i have used bootstrap to implement this element, I input the html into my index.html and followed with custom styling using css.  
+
+* **Test**    
+Upon testing, the constant slide show works on all device sizes as it should. 
+I couldn't get the previous and next buttons to work correctly as there appears to be an issue to with the bootstrap jquery as i found re-searching on the internet. Unfortunately I do not currently have the knowledge to write or understand javascript so i have chosen to remove the previous and next buttons as the main goal to achieve was producing a slide show.
+
+* **Result**    
+The slide show sits and works as expected cycling automatically through the pictures. Previous and Next buttons did not work so pulled them from the design.
+
+* **Verdict**    
+The slideshow met all the main criteria i was trying to acheive, the buttons do not work which  minor and and fine. 
+
+
+### Contact Form 
+
+* **Plan**    
+I want to include a contact form which the user can fill in to contact the band in regards to making bookings.
+Mandator fields include,name, email address & enquiry description, the phone number is not required as the main form of contact used for making the bands bookings is messaging online. 
+Whenever they submit the form, i want the form to reset when it has been submitted correctly.
+
+* **Implementation**    
+Again i have used bootstrap to implement my form, I used online instruction from the bootstrap to build my form using 3 input fields, 1 textarea field and a submit button. I have used both lables and placholders as i felt it looks better this way.
+Again i used css to style the form to bring it inline with the overall website design.
+
+<!--
+* **Test**    
+When I tested the form, I noticed that the modal opened up eventhough the form was not filled in. 
+This gave the wrong feedback to the user. As I didn't have the required skills to implement form validation, I discussed this with my mentor. 
+My mentor wrote a small part of JavaScript which I was able to implement in order for the form not being able to be submitted without the required fields being filled in. 
+The data that is being inserted is currently not send anywhere as I don't have the knowledge yet but this is on the list with future features to be implemented. 
+-->
+* **Result**    
+The mandatory fields worked as planned and the form refreshes upon submition.
+
+* **Verdict**    
+The form met all the criteria and works as planned. 
 
 [Back to Top](#table-of-contents)
 
