@@ -257,7 +257,7 @@ caption {
 
 .form-main {
     width: 100%;
-    max-width: 80%;
+    max-width: 75%;
     margin: 0 auto;
 }
 
@@ -339,3 +339,10 @@ footer {
 
 /*Media Queries*/
 
+@media (min-width: 1080px) {
+    .form-main {
+        width: 100%;
+        max-width: 60%;
+        margin: 0 auto;
+    }
+}
