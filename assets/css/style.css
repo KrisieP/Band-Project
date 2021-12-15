@@ -49,6 +49,12 @@ h5 {
     font-family: "Exo", sans-serif;
 }
 
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border-color: rgb(0, 0, 0);
+}
+
+
 /*Hero Image Section*/ 
 
 .heroimage-container {
