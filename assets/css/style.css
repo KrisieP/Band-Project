@@ -142,6 +142,10 @@ h5 {
     margin: 1rem;
 }
 
+.feature-box ul {
+    list-style-type: circle;
+  }
+
 .feature-box-heads {
     padding: 0.7rem;
     text-decoration: underline;
