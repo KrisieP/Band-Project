@@ -300,8 +300,7 @@
         </div>
     </div>
     <!--found the below model here 
-        URL(https://github.com/AnoukSmet/Naturazy/blob/master/index.html#:~:text=%3C/div%3E-,%3Cdiv%20class%3D%22modal%20fade%20submit%2Dmodal%22%20id%3D%22submitModal%22%20tabindex%3D%22%2D1,%3C/div%3E,-%3C!%2D%2D%20Links%20bootstrap%20Javascript) 
-        and modified it work with my contact us form-->
+        URL(https://github.com/AnoukSmet/Naturazy/blob/master/index.html) -->
     <div class="modal fade submit-modal" id="submitModal" tabindex="-1" role="dialog" aria-labelledby="submitModaltitle"
         aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
@@ -345,32 +344,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
-    <!--The custom Jquery below was found here URL(https://github.com/AnoukSmet/Naturazy/blob/master/index.html#:~:text=%3Cscript%3E,%3C/script%3E) 
-        I have researched and found how to add the reset line and modified the code to work for my website. -->
-    <script>
-        $('#contact-form').submit(function (e) {
-            e.preventDefault();
-            $('#submitModal').modal('show');
-            $('#contact-form')[0].reset();
-        });
-    </script>
-    <!--The custom Jquery below was found here URL(https://github.com/AnoukSmet/Naturazy/blob/master/index.html#:~:text=%3Cscript%3E,%3C/script%3E) 
-        I have researched and found how to add the reset line and modified the code to work for my website. -->
-    <script>
-        $('#modal-form').submit(function (e) {
-            e.preventDefault();
-            $('#submitsubscription').modal('show');
-            $('#modal-form')[0].reset();
-        });
-    </script>
-    <!--The custom Jquery below was found here URL
-        (https://mdbootstrap.com/support/general/auto-close-navbar-when-click-on-link-responsive-mode/#:~:text=%3Cscript%3E%0A%20%20%20%20%20%20%20%20%24(%27.navbar%2Dcollapse%20a%27).click(function()%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%24(%22.navbar%2Dcollapse%22).collapse(%27hide%27)%3B%0A%20%20%20%20%20%20%20%20%7D)%3B%0A%20%20%20%20%3C/script%3E)-->
-    <script>
-        $('.navbar-collapse a').click(function(){
-            $(".navbar-collapse").collapse('hide');
-        });
-    </script>
-
 </body>
 
 </html>
