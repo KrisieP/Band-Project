@@ -353,6 +353,11 @@ footer {
     color: #0069d9;
 }
 
+/*Modals*/
+
+.sub-modal-success {
+    max-width: 30rem;
+}
 
 /*Media Queries*/
 

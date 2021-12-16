@@ -258,14 +258,15 @@ I have used Bootstrap to implement the hamburger icon dropdown menu for mobile d
 * **Test**    
 To test the navigation bar, I have click all the links to make sure it works properly. 
 I have also opened the website in various browers (safari, google chrome, mozilla firefox) to make sure it works on all browsers and devices.
-I also double checked the scrollspy on the various browsers and devices. 
 On mobile the navigation transformed into the hamburger sign with a dropdown menu.
 
 * **Result**    
-
+The Nav Bar works as it should on browsers tested and is responsive on varying device screen sizes.
 
 * **Verdict**    
-
+All links work and open into new windows.
+The hamburger menu works as it supposed to on mobile devices.
+The navbar is working as it should.
 
 ### Modal
 
@@ -276,13 +277,13 @@ I will implement a modal into my subscribe buttons as i want to it to be a quick
 I have used bootstrap to implement my modal as i have not yet learnt javascript. I found a base template and taylored the html to make the modal work best for the website, making the modal appear in the center of the page when it pops up. After this i used css to style the modal making it fall inline with the design of website.
 
 * **Test**    
-Upon testing my modal on different browsers and device sizes it appears nicely in the middle of the screen and found no issues.
+
 
 * **Result**    
-The modal opened up when the subscribe button was clicked and appeared in the center of the screen as designed.
+
 
 * **Verdict**    
-The modal works as planned and met all the criteria. 
+
 
 
 ### Gallery Carousel 
@@ -318,11 +319,12 @@ Again i used css to style the form to bring it inline with the overall website d
 
 
 * **Test**    
-
-
+I while testing i found that the form max-width and place holder font size became incorrect on higher resolution screen sizes, 1080p and above so i have implemented some media queries to combat the issue.
+The website was viewed on a variety of devices such as Desktop, Laptop, iPhone5, iPhone 8, Google Pixel 2 and a iPad.
+The website was viewed on a variety of browsers Edge, Chrome, Internet Exlporer, Firefox and Safari.
 
 * **Result**    
-
+Form res
 
 * **Verdict**    
 
