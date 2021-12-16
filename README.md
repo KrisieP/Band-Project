@@ -42,6 +42,7 @@ Any questions, please feel free to contact me via my github page. Thanks!
 * [Deployment](#deployment)
 * [Bugs](#bugs)
 * [Credits](#credits)
+* [Acknowledgments](#acknowledgments)
 
 
 <a name="ux"></a>
@@ -109,12 +110,14 @@ Any questions, please feel free to contact me via my github page. Thanks!
 
 [Back to Top](#table-of-contents)
 
+---
+
 <a></a>
 ### **Design Choices**
 I looked through the  website [coolors](https://coolors.co/) but i couldn't settle on a pallet that would suit the band so i have spent time looking through colours using the dev tools until i found what i felt reprisented the bands vibe while still providing suitable contrast to buttons, backgrounds and content.
 
 <a></a>
-#### Fonts
+#### **Fonts**
 I have used Google fonts to find the desired font styles from this project and have decided font-family: 'Passions Conflict' works best for the bands home page name title as it fits with a previous font style used that band has been using for years that their followers would recognise, but i feel this has an additional level of elegance.
 For headings and content i have taken a more simplified clean cut approach to the font styles as being able to read the content clearly and easily is far more important for user experience than flmaboiance.
 I have done a bit of reasearch into the most popular fonts and why on google and have come to the conclusion that font-family: 'Lato' would work great for the content as it's very clean but has slight smooth cut charactaristics that i found interesting and drew me in.
@@ -122,11 +125,11 @@ I paired font-family: 'Lora' with Lato for my headings, i read this was a popula
 
 
 <a></a>
-#### Icons
+#### **Icons**
 I have decided to implement icons, using the [Font Awesome library](https://fontawesome.com/ "Font Awesome"). I have used a minimalalistic aproach to icons on my website, I've used them for the purpose of social media links and nothing else as i beleive this is their main purpose in this design.
 
 <a></a>
-#### Colors
+#### **Colors**
 The colours i have used for the website are as follows;
 
 * #a58869 = This is my main background colour as i feel it represents a natural wooden colour whilts not drawing you away from the foreground which i want the use to concentrate on.
@@ -140,7 +143,7 @@ The colours i have used for the website are as follows;
 
 
 <a></a>
-#### Structure
+#### **Structure**
 I have decided to use [Bootstrap](https://getbootstrap.com/) to build the base structure of my website as it has proven to be an invaluable framework. 
 Bootstrap provides various elements of CSS and Javascript which is very helpful to keep a good structure on my pages. 
 As Bootstrap is designed for mobile first, I will be certain that my website functions well on mobile.
@@ -164,55 +167,54 @@ You can find my wireframes below:
 ### [Mobile Wireframe](/wireframes/mobile.png)
 
 
+
 [Back to Top](#table-of-contents)
 
 ---
 
 <a></a>
 ## **Features**
-<a></a>
-### **Existing Features**
 
-#### Navigation
+
+### Navigation
 I have used Bootstrap to create my navbar due to it's responsive nature between devices sizes.
 For mobile devices i have used a dropdown menu which is a lot cleaner than trying to squeeze all options onto a small navbar.
 
 
 
-#### Home Page - Hero Image
+### Home Page - Hero Image
 
 I have decided to implement a hero image which spreads over 100% width of the screen. I have set the height at 80vh to show a little of what comes next to entise the user into scrolling down the page.
 The image responds well when viewing on desktop, tablet and mobile.
 
 
-#### About Us Section
+### About Us Section
 
 Here I used the grid from Bootstrap to create 3 colums on desktop & tablet view which turn into full width stacked columns on mobile devices. To help separate the columns i will provide a dark translucent boxes to each field. 
 
-#### Live Events Section
+### Live Events Section
 
 For the live events section i will use a responsive background image of the band playing live that will fill the screen on all devices sizes. 
 
 I will implement a table to nest all upcoming event dates, locations and times whilst each location will also be a link to the venues websites for eas of users to be able to contact said venue to enquire to booking tickets to see the band play. This table will be responsive to all device sizes and have a width of 50% to not tke up the screens real-estate as the back ground will also help to represent what an event setting could look like.
 
-#### Gallery Section
+### Gallery Section
 
 For the gallery images i have decided to use a bootstrap carosel slide show as i felt a gallery with lots of images across the section would take away from the website clean and easy to view look. 
 
 I decided against filling the screen width for the carosel as i wanted it to taper into the bands main content for the section, their live studio recording which is in the form of a youtube embeded video spaning a 100% width of the page on all device sizes as it's the main focal point of the section and something the band want to be prominant on the website to help encourage users to book them.
 
 
-#### Contact Us Section
+### Contact Us Section
 
 In the contact-us section i have made the following filed manditory to complete Name, Email, Enquiry Description, I have chosen to leave the phone number as non-complusory as most users do not like to provide phone numbers upon making enquiries as a whole so doing this should help to build the level of enquiries the band recieve.
 
 In the event and enquiry details section I have used some decriptive place holder text to help guide the user into what they would need to let tyhe band know what they want for booking, this will help the band with returning a comprehensive reply.
 
 
-<a></a>
-
-
 [Back to Top](#table-of-contents)
+
+---
 
 <a></a>
 ## **Technologies used**
@@ -242,6 +244,8 @@ In the event and enquiry details section I have used some decriptive place holde
 
 
 [Back to Top](#table-of-contents)
+
+---
 
 <a></a>
 ## **Testing**
@@ -340,8 +344,50 @@ The form works as expected to specification within the plan.
 
 [Back to Top](#table-of-contents)
 
-<a></a>
+---
 
+<a></a>
+## **Bugs**
+
+### Carousel Gallery
+
+* **Bug**  
+Previous and Next buttons did not work reasearched on google and it would require javascript which i have not learnt at this point.
+
+* **Fix**  
+Custom javascript needs to be implimented to repair the issue
+
+* **Verdict**   
+The fix is not urgent and can wait until a later release.
+
+### Live Events Table
+
+* **Bug**  
+The table falls out of landscape center alignment on mobile size devices when using the Safari Browser. 
+
+* **Fix**  
+A safari browser is required to fix this issue and i do not have a Apple device to test and implement a fix, windows and android devices are no longer supported by Apple.
+
+* **Verdict**   
+Find a Apple computer to use safari dev tools to implement a fix for later release.
+
+### Hamburger mobile navbar dropdown menu
+
+* **Bug**    
+On mobile devices when you click the hamburger icon, the menu appears nicely. 
+Whenever you click on one of the menu links the dropdown menu doesn't dissapear and stays open.
+
+* **Fix**   
+I have found some custom JQuery script that I have implemented into index.html 
+
+* **Verdict**   
+The menu now close upon clicking a link as it should. This creates a much better user experience.
+
+[Back to Top](#table-of-contents)
+
+---
+
+<a></a>
 ## **Deployment**
 
 This project was deployed via GitHub by executing the following steps.
@@ -389,40 +435,27 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 [Back to Top](#table-of-contents)
 
+---
+
 <a></a>
-## **Bugs**
+## **Credits**
 
-### Carousel Gallery
+* Images were provided to me by Robert Llewellin from [The Llewellin Duo](https://www.instagram.com/thellewellinduo/) via a google drive link that he supplied and gave permission to use all photos within.
 
-* **Bug**  
-Previous and Next buttons did not work reasearched on google and it would require javascript which i have not learnt at this point.
+* I would like to credit [Anouk Smet](https://github.com/AnoukSmet/Naturazy/blob/master/index.html#:~:text=%3C/div%3E-,%3Cdiv%20class%3D%22modal%20fade%20submit%2Dmodal%22%20id%3D%22submitModal%22%20tabindex%3D%22%2D1,%3C/div%3E,-%3C!%2D%2D%20Links%20bootstrap%20Javascript)as this is where i found the code that allowed me to create the modals and custom JQuery i needed for my form submissions.
 
-* **Fix**  
-Custom javascript needs to be implimented to repair the issue
+* [Marta Szymanska](https://mdbootstrap.com/support/general/auto-close-navbar-when-click-on-link-responsive-mode/#:~:text=%3Cscript%3E%0A%20%20%20%20%20%20%20%20%24(%27.navbar%2Dcollapse%20a%27).click(function()%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%24(%22.navbar%2Dcollapse%22).collapse(%27hide%27)%3B%0A%20%20%20%20%20%20%20%20%7D)%3B%0A%20%20%20%20%3C/script%3E) posted the custom JQuery to allow my mobile navbar drop down to auto close upon clicking a menu link.
 
-* **Verdict**   
-The fix is not urgent and can wait until a later release.
+* I would thank the tuition up to this point as i wouldn't have been able to complete this project otherwise. I also want to credit some CSS that i used from the [Whiskey Drop](https://github.com/KrisieP/Bootstrap/blob/main/css/style.css#:~:text=%7D-,.callout%2Dcontainer%20%7B,background%2Dsize%3A%20cover%3B,-display%3A%20flex%3B*/) project that they guided me through earlier in the degree.
 
-### Live Events Table
+* [Simen Daehlin](https://github.com/KrisieP/Band-Project/blob/main/assets/css/style.css#:~:text=in%20rem%20easier*/-,html%20%7B,%7D,-/*Special%20paddings/margins) for providing me with this neat CSS trick which helped me to work in REM by making 1REM equal to a figure of 10 but still out putting a pixel size of 16 within the body of my HTML. 
 
-* **Bug**  
-The table falls out of landscape center alignment on mobile size devices when using the Safari Browser. 
+## **Acknowledgments**
 
-* **Fix**  
-A safari browser is required to fix this issue and i do not have a Apple device to test and implement a fix, windows and android devices are no longer supported by Apple.
+First Credit will have to go my mentor Simen for helping me keep structure in my planning and providing me with some excellent tips to ensure i am writting my code well and also thinking outside of the box.
 
-* **Verdict**   
-Find a Apple computer to use safari dev tools to implement a fix for later release.
+Secondly i need to thank the Slack community as there have been a couple of instances where i needed a little guidance and the community was there at the drop of a hat to help me workout a few selected issues and understand the issues for future reference.
 
-### Hamburger mobile navbar dropdown menu
+Thirdly my parnter Emily who has spent time discussing and looking at the styling of the website, helping me find problematic areas that i have now fixed.
 
-* **Bug**    
-On mobile devices when you click the hamburger icon, the menu appears nicely. 
-Whenever you click on one of the menu links the dropdown menu doesn't dissapear and stays open.
-
-* **Fix**   
-I have found some custom JQuery script that I have implemented into index.html 
-
-* **Verdict**   
-The menu now close upon clicking a link as it should.
-
+[Back to Top](#table-of-contents)
