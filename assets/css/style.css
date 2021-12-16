@@ -1,19 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700&family=Passions+Conflict:wght@100;200;300;400;500;600;700&family=Lora:wght@100;200;300;400;500;600;700&display=swap');
 
-/*My mentor simen taught me this font sizing trick to help work in rem easier*/
 html {
     font-size: 62.5%;
 }
 
 body {
     font-size: 1.6rem;
+    font-family: "Exo", sans-serif;
 }
 
 /*Special paddings/margins/text*/
-
-p {
-    font-family: "exo", sans-serif;
-}
 
 h1,
 h2,
@@ -41,12 +37,10 @@ h5 {
 
 .navbar-light .navbar-nav .nav-link {
     color: rgb(0 0 0);
-    font-family: "Exo", sans-serif;
 }
 
 .nav-home {
     font-weight: 700;
-    font-family: "Exo", sans-serif;
 }
 
 .navbar-light .navbar-toggler {
@@ -116,7 +110,6 @@ h5 {
 .btn-primary {
     padding: .5rem 1rem;
     font-size: 1.2rem;
-    font-family: "exo", sans-serif;
     line-height: 1;
     border-radius: 0.8rem;
     border-width: 1px;
@@ -343,9 +336,7 @@ footer {
     width: 10rem;
 }
 
-.fa-facebook-square:hover,
-.fa-youtube-square:hover,
-.fa-instagram-square:hover {
+.fab:hover {
     color: #0069d9;
 }
 
