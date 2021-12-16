@@ -354,13 +354,13 @@ The form works as expected to specification within the plan.
 ### Carousel Gallery
 
 * **Bug**  
-Previous and Next buttons did not work reasearched on google and it would require javascript which i have not learnt at this point.
+Previous and Next buttons did not work with indicators.
 
 * **Fix**  
-Custom javascript needs to be implimented to repair the issue
+removed indicators list, matched id=carousel-indicators to button href's.
 
 * **Verdict**   
-The fix is not urgent and can wait until a later release.
+slide show is working and now also have working buttons.
 
 ### Live Events Table
 
