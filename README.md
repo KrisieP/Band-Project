@@ -219,7 +219,7 @@ In the event and enquiry details section I have used some decriptive place holde
 
 * [HTML](https://en.wikipedia.org/wiki/HTML)
 * [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
-* [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+* [JQuery](https://en.wikipedia.org/wiki/JQuery)
 
 <a></a>
 
@@ -268,25 +268,27 @@ All links work and open into new windows.
 The hamburger menu works as it supposed to on mobile devices.
 The navbar is working as it should.
 
+
 ### Modal
 
 * **Plan**    
-I will implement a modal into my subscribe buttons as i want to it to be a quick subscription method.
+I will implement modals into my subscribe buttons as i want to it to be a quick subscription method, i will implement a further modal to confirm the subscription.
+I will also implement a confirmation modal into my contact us form so the user knows there message was successful.
 
 * **Implementation**    
-I have used bootstrap to implement my modal as i have not yet learnt javascript. I found a base template and taylored the html to make the modal work best for the website, making the modal appear in the center of the page when it pops up. After this i used css to style the modal making it fall inline with the design of website.
+I have used bootstrap to implement my modals. I found a base template and taylored the html to make the subscription button modal work best for the website, making the modal appear in the center of the page when it pops up. I input another modal and custom Jquery script (which i have found and modified/taylored to work for my website) creating a confirmation popup after submitting both the subscription and contact us form. I used css to style the modal making it fall inline with the design of website.
 
 * **Test**    
-
+Tested on multiple browsers and device sizes.
 
 * **Result**    
-
+Worked as expected with no apprant bugs.
 
 * **Verdict**    
+Fully functioning as planned.
 
 
-
-### Gallery Carousel 
+### Gallery 
 
 * **Plan**    
 I want to have a gallery slideshow with around 6 photos on constant rotation, i would like to have previous and next buttons to control the slide show.
@@ -296,14 +298,17 @@ I plan to have the slide  fill just under the full screen width as i want it to 
 Again i have used bootstrap to implement this element, I input the html into my index.html and followed with custom styling using css.  
 
 * **Test**    
-Upon testing, the constant slide show works on all device sizes as it should. 
-I couldn't get the previous and next buttons to work correctly as there appears to be an issue to with the bootstrap jquery as i found re-searching on the internet. Unfortunately I do not currently have the knowledge to write or understand javascript so i have chosen to remove the previous and next buttons as the main goal to achieve was producing a slide show.
+Tested on multiple browsers and device sizes.
 
 * **Result**    
-The slide show sits and works as expected cycling automatically through the pictures. Previous and Next buttons did not work so pulled them from the design.
+The slide show sits and works as expected cycling automatically through the pictures in a responsive fashion to different device sizes.
+Works with no apparant faults on different browsers. 
+**BUG** - Previous and Next buttons did not work so pulled them from the design as i do not understand the javascript to fix it.
 
 * **Verdict**    
-The buttons do not work which minor and not the main requirement in my design. The slideshow met all the main criteria i was trying to acheive. 
+The buttons do not work which minor and not the main requirement in my design. 
+The slideshow met all the main criteria i was trying to acheive in regards to device sizes and browser types. 
+The embedded youtube video sit and works as required.
 
 
 ### Contact Form 
@@ -311,23 +316,24 @@ The buttons do not work which minor and not the main requirement in my design. T
 * **Plan**    
 I want to include a contact form which the user can fill in to contact the band in regards to making bookings.
 Mandator fields include,name, email address & enquiry description, the phone number is not required as the main form of contact used for making the bands bookings is messaging online. 
-Whenever they submit the form, i want the form to reset when it has been submitted correctly.
+Whenever they submit the form, i want the form to reset when it has been submitted correctly and a popup modal to confirm the successfull submission.
 
 * **Implementation**    
 Again i have used bootstrap to implement my form, I used online instruction from the bootstrap to build my form using 3 input fields, 1 textarea field and a submit button. I have used both lables and placholders as i felt it looks better this way.
-Again i used css to style the form to bring it inline with the overall website design.
+I input a modal and custom Jquery script (which i have found and modified/taylored to work for my website) creating a confirmation popup after submitting the contact us form.
+I used css to style the form and modal to bring it inline with the overall website design.
 
 
 * **Test**    
-I while testing i found that the form max-width and place holder font size became incorrect on higher resolution screen sizes, 1080p and above so i have implemented some media queries to combat the issue.
-The website was viewed on a variety of devices such as Desktop, Laptop, iPhone5, iPhone 8, Google Pixel 2 and a iPad.
-The website was viewed on a variety of browsers Edge, Chrome, Internet Exlporer, Firefox and Safari.
+I while testing i found that the form max-width and place holder font size became too stretched out and font sizes wer slightly too small on higher resolution screen sizes, 1080p and above so i have implemented a media query to combat the issue.
+The website was viewed on a variety of devices sizes and also on multipul browser types.
 
 * **Result**    
-Form res
+After applying the media query the resonded effectivley on different device sizes.
+The form appeard as expected on different browser types.
 
 * **Verdict**    
-
+The form works as expected to specification within the plan.
 
 
 [Back to Top](#table-of-contents)
