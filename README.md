@@ -5,9 +5,11 @@
 ## **Goal for this project** 
 
 The Llewelin Duo 
-The band can perform at a variety of venues, ranging from small cosy pubs to large scales weddings where they will provide the perfect atmosphere to get everyone on their feet dancing the night away.
-This webistes purpose is to promote an acoustic duo band, who specialise in a unique Spanish cross Mexican style instrumental duet. Information regarding the band, upcoming events and supplying the user with images and example audio/video to help them contact the band to book in a relavant and resposive design is the aim here.
 
+The band can perform at a variety of venues, ranging from small cosy pubs to large scales weddings where they will provide the perfect atmosphere to get everyone on their feet dancing the night away.
+This webistes purpose is to promote an acoustic guitar duet, who specialise in a unique Spanish-flaminco style,instrumental duet. 
+
+To supply information regarding the band, upcoming events and giving the user images and example audio/video to help them make thier decision in contacting the band to book. A relavant, resposive and user friendly design is the aim here.
 
 An intuitive and exciting user experience is key with information to be found easily is important.
 
@@ -52,13 +54,13 @@ Any questions, please feel free to contact me via my github page. Thanks!
 
 * A website with content to wow the user into hiring the band for an event
 * Website should be easy to navigate on all devices formats such as desktop, tablet & mobile
-* Pleasing visual elements
+* Pleasing and clear visual elements
 * Understand the bands style and versitility
-* Website with creative call-to-actions
-* Provide users with venue and user based reviews/testimonials
-* Contact form should be easy to find and simple to complete
-* Subscription button should be easy to find and simple to complete with a maximum of three fields
-* Links to social media accounts promtoted for additional content
+* Website with call-to-actions
+* Provide users with upcoming evnt and venue information 
+* Contact form should be easy to find and simple to complete with instruction of the best information to contact the band with
+* Subscription button should be easy to find and simple to complete with a maximum of two fields
+* Links to social media accounts provided for further content
 
 [Back to Top](#table-of-contents)
 
@@ -70,15 +72,15 @@ Any questions, please feel free to contact me via my github page. Thanks!
 * As a user, I want to see various images of the different venue types they have played at.
 * As a user, I want to be able to easily see their upcoming events.
 * As a user, I want to know whether the band would be flexible in learning new material for a specific event.
-* As a user, I want to be able to subscribe to the latest updates, events, merch and new material.
+* As a user, I want to be able to subscribe to the latest updates, events and new material.
 * As a user, it is important to me that the website is easy and simple to use. 
 * As a user, I want the websit to work well on mobile devices. 
-* As a user, I want the website to be intuitive as it will help increase enquiries for bookings.
+* As a user, I want the website to be intuitive to help aid enquiries for bookings.
 * As a user, I want to find the contact details quickly and easily.
 * As a user, I want contacting the band simple and quick.
 * As a user, I want to feel drawn to their style.
 * As a user, I want the website to be easy to navigate. 
-* As a user, I would like to know a bit about the band members themselves.
+* As a user, I would like to know a bit about the band themselves.
 * As a user, I want there to be links to their social media pages to view aditional content.
 
 <a></a>
@@ -102,10 +104,10 @@ Any questions, please feel free to contact me via my github page. Thanks!
 
 <a></a>
 #### Expectations
-* When clicking on external links, I expect the page to open in a new tab window
-* When clicking to subscribe, i expect the simple completion form to open in to a modal popup box within the same page.
-* I expect a 'Success' notification when submitting the contact form to confirm that submitted correctly
-* For all nav links to work correctly, whether it be to a different location on the same page or to a location on a seperate page.
+* When clicking on external links, I expect the page to open in a new tab
+* When clicking to subscribe, i expect the simple completion form to open into a modal popup box within the same page
+* I expect a 'Success' notification when submitting the contact/subscription forms to confirm that thier request has been completed
+* For all nav links to work correctly
 * Website is in line with the customer's journey
 
 [Back to Top](#table-of-contents)
