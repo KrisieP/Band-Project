@@ -13,11 +13,11 @@
 
 <body>
     <header>
-        <!--MAin navigation bar-->
+        <!--Main navigation bar-->
         <nav class="navbar navbar-expand-md navbar-light navbar-custom" id="home">
             <a href="#contact-us" class="btn btn-primary" aria-label="contact us page">Contact
                 Us</a>
-            <a href="#" class="navbar-toggler nav-but" data-toggle="collapse" data-target="#navbarNav"
+            <a href="" class="navbar-toggler nav-but" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </a>
@@ -46,9 +46,8 @@
                     <div class="col-12 hero-sub">
                         <div class="sub-box">
                             <h5 class="Subscribe-header">Subscribe for our latest event updates!</h5>
-                            <a href="" class="btn btn-primary" data-toggle="modal"
-                                data-target="#subscriptionmodalcenter"
-                                aria-label="subscribe">Subscribe</a>
+                            <a href="" class="btn btn-primary" role="button" data-toggle="modal"
+                                data-target="#subscriptionmodalcenter" aria-label="subscribe">Subscribe</a>
                         </div>
                     </div>
                 </div>
@@ -88,7 +87,7 @@
 
                     <br>
                     We are very flexible so please get in touch with us by filling in our <a href="#contact-us"
-                   class="aboutus-contactlink">Contact Us Form</a>.
+                        class="aboutus-contactlink">Contact Us Form</a>.
                 </p>
             </div>
             <div class="col-12 col-lg-3 feature-box">
@@ -133,12 +132,14 @@
                         </tr>
                         <tr>
                             <th scope="row">31/12/2021</th>
-                            <td><a href="https://www.facebook.com/thepembrokeyeoman/">The Pembroke Yeoman</a> - Haverfordwest</td>
+                            <td><a href="https://www.facebook.com/thepembrokeyeoman/">The Pembroke Yeoman</a> -
+                                Haverfordwest</td>
                             <td>11pm - 1am</td>
                         </tr>
                         <tr>
                             <th scope="row">26/02/2022</th>
-                            <td><a href="https://thebristoltrader.co.uk/welcome/contact-us/">The Bristol Trader</a> - Haverfordwest</td>
+                            <td><a href="https://thebristoltrader.co.uk/welcome/contact-us/">The Bristol Trader</a> -
+                                Haverfordwest</td>
                             <td>7.30pm - 9pm</td>
                         </tr>
                         <tr>
@@ -148,7 +149,8 @@
                         </tr>
                         <tr>
                             <th scope="row">19/03/2022</th>
-                            <td><a href="https://theroyaloaksaundersfoot.com/contact-us/">The Royal Oak</a> - Saundersfoot</td>
+                            <td><a href="https://theroyaloaksaundersfoot.com/contact-us/">The Royal Oak</a> -
+                                Saundersfoot</td>
                             <td>8pm - 9pm</td>
                         </tr>
                     </tbody>
@@ -218,7 +220,7 @@
         <h1 class="contact-us-header"><a id="contact-us">Contact Us</a></h1>
         <h4 class="contact-us-sub-head">Please complete the form below to booking our sexy skill set for your venue!
         </h4>
-        <form class="form-main">
+        <form class="form-main" id="contact-form">
             <div class="form-group">
                 <label for="name">Full Name</label>
                 <input type="text" class="form-control" id="name" placeholder="First & Last Name" required>
@@ -254,8 +256,8 @@
                         class="fab fa-instagram-square footer-icons"></i></a>
             </div>
             <div class="col-sm-3 foot-butt-cont">
-                <a href="#home" class="btn btn-primary footer-buttons"
-                    aria-label="return to top of website">Back To Top</a>
+                <a href="#home" class="btn btn-primary footer-buttons" aria-label="return to top of website">Back To
+                    Top</a>
             </div>
             <div class="col-sm-3 foot-butt-cont">
                 <button href="" type="button" class="btn btn-primary footer-buttons" data-toggle="modal"
@@ -289,8 +291,31 @@
                         <small id="emailHelp" class="form-text text-muted">We will never share your email with anyone
                             else.</small>
                     </div>
-                    <button type="submit" class="btn btn-primary modal-button">Submit</button>
+                    <button type="submit" class="btn btn-primary modal-button" data-dismiss="modal">Submit</button>
                 </form>
+            </div>
+        </div>
+    </div>
+    <!--found the below model here 
+        URL(https://github.com/AnoukSmet/Naturazy/blob/master/index.html#:~:text=%3C/div%3E-,%3Cdiv%20class%3D%22modal%20fade%20submit%2Dmodal%22%20id%3D%22submitModal%22%20tabindex%3D%22%2D1,%3C/div%3E,-%3C!%2D%2D%20Links%20bootstrap%20Javascript) 
+        and modified it work with my contact us form-->
+    <div class="modal fade submit-modal" id="submitModal" tabindex="-1" role="dialog" aria-labelledby="submitModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title submit-modal-title" id="submitModalLabel">Thank you!</h5>
+                    <a href="#" data-dismiss="modal" aria-label="close"><i class="fas fa-times icon-close"></i></a>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        Thank you for submitting your enquiry. <br>
+                        We will be in touch ASAP!
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn bg-color-light" data-dismiss="modal">Close</button>
+                </div>
             </div>
         </div>
     </div>
@@ -298,6 +323,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+    <!--The custom Jquery below was found here URL(https://github.com/AnoukSmet/Naturazy/blob/master/index.html#:~:text=%3Cscript%3E,%3C/script%3E) 
+        I have researched and found how to add the reset line. -->
+    <script>
+        $('#contact-form').submit(function (e) {
+            e.preventDefault();
+            $('#submitModal').modal('show');
+            $('#contact-form')[0].reset();
+        });
+    </script>
+
 </body>
 
 </html>
