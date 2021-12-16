@@ -265,7 +265,7 @@
             </div>
         </div>
     </footer>
-    <!-- Modal subscribe-->
+    <!-- Modals subscribe and contact us form submit-->
     <div class="modal fade" id="subscriptionmodalcenter" tabindex="-1" role="dialog"
         aria-labelledby="subscriptionModalCenterTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
@@ -291,7 +291,7 @@
                         <small id="emailHelp" class="form-text text-muted">We will never share your email with anyone
                             else.</small>
                     </div>
-                    <button type="submit" class="btn btn-primary modal-button" data-dismiss="modal">Submit</button>
+                    <button type="submit" class="btn btn-primary modal-button">Submit</button>
                 </form>
             </div>
         </div>
@@ -319,6 +319,25 @@
             </div>
         </div>
     </div>
+    <div class="modal fade submit-modal" id="submitsubscription" tabindex="-1" role="dialog" aria-labelledby="submitModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title submit-modal-title" id="submitModalLabel">Thank you!</h5>
+                    <a href="#" data-dismiss="modal" aria-label="close"><i class="fas fa-times icon-close"></i></a>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        We are hyped for your subscription!
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn bg-color-light" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <!--Bootstrap and javascript "script" links-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
@@ -330,6 +349,13 @@
             e.preventDefault();
             $('#submitModal').modal('show');
             $('#contact-form')[0].reset();
+        });
+    </script>
+    <script>
+        $('#modal-form').submit(function (e) {
+            e.preventDefault();
+            $('#submitsubscription').modal('show');
+            $('#modal-form')[0].reset();
         });
     </script>
 
