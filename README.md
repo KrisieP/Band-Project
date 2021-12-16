@@ -36,10 +36,11 @@ Any questions, please feel free to contact me via my github page. Thanks!
     * [Features to be implemented](#features-to-be-implemented)
 * [Technologies used](#technologies-used)
     * [Languages](#languages)
-    * [Libraries & Frameworks](#libraries-&-frameworks)
+    * [Libraries And Frameworks](#libraries-and-frameworks)
     * [Tools](#tools)
 * [Testing](#testing)
 * [Deployment](#deployment)
+* [Bugs](#bugs)
 * [Credits](#credits)
 
 
@@ -223,7 +224,7 @@ In the event and enquiry details section I have used some decriptive place holde
 * [JQuery](https://en.wikipedia.org/wiki/JQuery)
 
 <a></a>
-### **Libraries & Frameworks**
+### **Libraries And Frameworks**
 
 * [Font Awesome](https://fontawesome.com/)
 * [Bootstrap](https://getbootstrap.com/)
@@ -387,3 +388,41 @@ $ git clone https://github.com/KrisieP/Band-Project
 Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
 
 [Back to Top](#table-of-contents)
+
+<a></a>
+## **Bugs**
+
+### Carousel Gallery
+
+* **Bug**  
+Previous and Next buttons did not work reasearched on google and it would require javascript which i have not learnt at this point.
+
+* **Fix**  
+Custom javascript needs to be implimented to repair the issue
+
+* **Verdict**   
+The fix is not urgent and can wait until a later release.
+
+### Live Events Table
+
+* **Bug**  
+The table falls out of landscape center alignment on mobile size devices when using the Safari Browser. 
+
+* **Fix**  
+A safari browser is required to fix this issue and i do not have a Apple device to test and implement a fix, windows and android devices are no longer supported by Apple.
+
+* **Verdict**   
+Find a Apple computer to use safari dev tools to implement a fix for later release.
+
+### Hamburger mobile navbar dropdown menu
+
+* **Bug**    
+On mobile devices when you click the hamburger icon, the menu appears nicely. 
+Whenever you click on one of the menu links the dropdown menu doesn't dissapear and stays open.
+
+* **Fix**   
+I have found some custom JQuery script that I have implemented into index.html 
+
+* **Verdict**   
+The menu now close upon clicking a link as it should.
+

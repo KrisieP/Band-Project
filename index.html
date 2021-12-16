@@ -363,6 +363,13 @@
             $('#modal-form')[0].reset();
         });
     </script>
+    <!--The custom Jquery below was found here URL
+        (https://mdbootstrap.com/support/general/auto-close-navbar-when-click-on-link-responsive-mode/#:~:text=%3Cscript%3E%0A%20%20%20%20%20%20%20%20%24(%27.navbar%2Dcollapse%20a%27).click(function()%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%24(%22.navbar%2Dcollapse%22).collapse(%27hide%27)%3B%0A%20%20%20%20%20%20%20%20%7D)%3B%0A%20%20%20%20%3C/script%3E)-->
+    <script>
+        $('.navbar-collapse a').click(function(){
+            $(".navbar-collapse").collapse('hide');
+        });
+    </script>
 
 </body>
 
