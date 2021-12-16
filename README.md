@@ -36,7 +36,8 @@ Any questions, please feel free to contact me via my github page. Thanks!
     * [Features to be implemented](#features-to-be-implemented)
 * [Technologies used](#technologies-used)
     * [Languages](#languages)
-    * [Tools and Libraries](#tools-and-libraries)
+    * [Libraries & Frameworks](#libraries-&-frameworks)
+    * [Tools](#tools)
 * [Testing](#testing)
 * [Deployment](#deployment)
 * [Credits](#credits)
@@ -222,13 +223,13 @@ In the event and enquiry details section I have used some decriptive place holde
 * [JQuery](https://en.wikipedia.org/wiki/JQuery)
 
 <a></a>
-
 ### **Libraries & Frameworks**
 
 * [Font Awesome](https://fontawesome.com/)
 * [Bootstrap](https://getbootstrap.com/)
 * [Google Fonts](https://fonts.google.com/)
 
+<a></a>
 ### **Tools**
 * [Git](https://git-scm.com/)
 * [GitPod](https://www.gitpod.io/)
