@@ -146,8 +146,8 @@ The colours i have used for the website are as follows;
 
 <a></a>
 #### **Structure**
-I have decided to use [Bootstrap](https://getbootstrap.com/) to build the base structure of my website as it has proven to be an invaluable framework. 
-Bootstrap provides various elements of CSS and Javascript which is very helpful to keep a good structure on my pages. 
+I have decided to use [Bootstrap](https://getbootstrap.com/) to build the base code for my website as it has proven to be an invaluable framework. 
+Bootstrap provides various elements of CSS and Javascript which is very helpful to keep a good, responsive structure on my pages. 
 As Bootstrap is designed for mobile first, I will be certain that my website functions well on mobile.
 
 [Back to Top](#table-of-contents)
@@ -155,9 +155,9 @@ As Bootstrap is designed for mobile first, I will be certain that my website fun
 --- 
 <a></a>
 ## **Wireframes**
-Upon a discussion with my mentor [Balsamic](https://balsamiq.com/wireframes/) is what i have decideed to use for designing the wireframes for my project.
+Upon a discussion with my mentor [Balsamic](https://balsamiq.com/wireframes/) is what i have decided to use for designing the wireframes for my project.
 I started with a mobile first aproach, so designed the website for mobile devices first, moving to tablets next and finally creating the desktop design.
-I have a four page design which i believe will be the best approach in order to seperate content as it would be too much for one page. This will ensure that the website is easy to read and navigate
+I have a single page design which i believe will be the best approach as content is generally viewed via a mobile or tablet device in this era. This will ensure that the website is easy to read and navigate.
 
 
 You can find my wireframes below:
@@ -209,7 +209,7 @@ I decided against filling the screen width for the carosel as i wanted it to tap
 
 ### Contact Us Section
 
-In the contact-us section i have made the following filed manditory to complete Name, Email, Enquiry Description, I have chosen to leave the phone number as non-complusory as most users do not like to provide phone numbers upon making enquiries as a whole so doing this should help to build the level of enquiries the band recieve.
+In the contact-us section i have made the following filed manditory to complete Name, Email, Enquiry Description, I have chosen to leave the phone number as non-complusory as some users do not like to provide phone numbers upon making enquiries, as a whole so doing this should help to build the level of enquiries the band recieve.
 
 In the event and enquiry details section I have used some decriptive place holder text to help guide the user into what they would need to let tyhe band know what they want for booking, this will help the band with returning a comprehensive reply.
 
