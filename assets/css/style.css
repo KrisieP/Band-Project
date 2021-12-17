@@ -28,7 +28,11 @@ h5 {
 /*Navbar*/
 
 .navbar-custom {
-    background: #8b8a91;
+    background: rgb(139 138 145);
+    position: fixed;
+    width: 100%;
+    z-index: 999999999;
+    padding: 3px 1rem;
 }
 
 .navbar-links a {
@@ -52,12 +56,22 @@ h5 {
     color: #0069d9;
 }
 
+.nav-logo {
+    font-size: 4.5rem;
+    color: #ffffff;
+    font-weight: 300;
+    text-align: left;
+    font-family: "Passions Conflict", sans-serif;
+    margin: 0;
+    padding-left: 1px;
+}
+
 
 /*Hero Image Section*/
 
 .heroimage-container {
     /*I took this peice of css from the whisky drop project 
-    https://github.com/KrisieP/Bootstrap/blob/main/css/style.css#:~:text=%7D-,.callout%2Dcontainer%20%7B,background%2Dsize%3A%20cover%3B,-display%3A%20flex%3B*/
+    https://github.com/KrisieP/Bootstrap/blob/main/css/style.css/ */
     height: 80vh;
     background: url("../images/Hero\ Image.jpg") no-repeat bottom right;
     -webkit-background-size: cover;
@@ -75,13 +89,13 @@ h5 {
 
 .hero-title {
     font-size: 14vmin;
-    color: #d6d6d6;
+    color: #ffffff;
     font-weight: 300;
     text-align: left;
     font-family: "Passions Conflict", sans-serif;
     position: relative;
-    margin: 0;
-    padding-left: 8%;
+    top: 6rem;
+    padding-left: 3.5rem;
 }
 
 .hero-col {
@@ -194,7 +208,6 @@ h5 {
 }
 
 .table-back-box {
-    /*margin: 0 auto ;- sugestion from Ana_5P in slack that fixed centering issue*/
     margin: 0 auto;
     margin-top: 6rem;
     margin-bottom: 8rem;
