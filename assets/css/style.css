@@ -160,7 +160,7 @@ h5 {
 }
 
 .feature-box {
-    background-color: rgb(57 59 68 / 72%);
+    background-color: rgba(37, 38, 44, 0.877);
     border-radius: 1rem 1rem;
     margin: 1rem;
 }

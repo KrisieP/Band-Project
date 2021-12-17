@@ -108,6 +108,7 @@ Any questions, please feel free to contact me via my github page. Thanks!
 * When clicking to subscribe, i expect the simple completion form to open into a modal popup box within the same page
 * I expect a 'Success' notification when submitting the contact/subscription forms to confirm that thier request has been completed
 * For all nav links to work correctly
+* links on navbar to scroll to their locations rather than jumping
 * Website is in line with the customer's journey
 
 [Back to Top](#table-of-contents)
@@ -116,7 +117,7 @@ Any questions, please feel free to contact me via my github page. Thanks!
 
 <a></a>
 ### **Design Choices**
-I looked through the  website [coolors](https://coolors.co/) but i couldn't settle on a pallet that would suit the band so i have spent time looking through colours using the dev tools until i found what i felt reprisented the bands vibe while still providing suitable contrast to buttons, backgrounds and content.
+I looked through the website [coolors](https://coolors.co/) but i couldn't settle on a pallet that would suit the band so i have spent time looking through colours using the dev tools until i found what i felt reprisented the bands vibe while still providing suitable contrast to buttons, backgrounds and content.
 
 <a></a>
 #### **Fonts**
@@ -181,7 +182,6 @@ You can find my wireframes below:
 ### Navigation
 I have used Bootstrap to create my navbar due to it's responsive nature between devices sizes.
 For mobile devices i have used a dropdown menu which is a lot cleaner than trying to squeeze all options onto a small navbar.
-
 
 
 ### Home Page - Hero Image
