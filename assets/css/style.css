@@ -269,6 +269,8 @@ caption {
     color: #000000;
     margin: 0;
     padding-top: 4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     text-align: center;
 }
 
