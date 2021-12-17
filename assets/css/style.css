@@ -82,7 +82,7 @@ h5 {
 /*Hero Image Section*/
 
 .heroimage-container {
-    /*I took this peice of css from the whisky drop project 
+    /*I took this from the whisky drop project 
     https://github.com/KrisieP/Bootstrap/blob/main/css/style.css/ */
     height: 80vh;
     background: url("../images/Hero\ Image.jpg") no-repeat bottom right;

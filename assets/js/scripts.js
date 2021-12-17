@@ -1,4 +1,4 @@
-//The custom Jquery below was found here URL(https://github.com/AnoukSmet/Naturazy/blob/master/index.html)
+//The code below was found here URL(https://github.com/AnoukSmet/Naturazy/blob/master/index.html)
 
 $('#contact-form').submit(function (e) {
     e.preventDefault();
@@ -18,7 +18,7 @@ $('.close-submit-modal').click(function (e) {
     $('#subscriptionmodalcenter').modal('hide');
 });
 
-//The custom Jquery below was found here URL(https://mdbootstrap.com/support/general/auto-close-navbar-when-click-on-link-responsive-mode/)-->
+//The code below was found here URL(https://mdbootstrap.com/support/general/auto-close-navbar-when-click-on-link-responsive-mode/)-->
 
 $('.navbar-collapse a').click(function(){
     $(".navbar-collapse").collapse('hide');
