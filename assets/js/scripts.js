@@ -20,6 +20,6 @@ $('.close-submit-modal').click(function (e) {
 
 //The custom Jquery below was found here URL(https://mdbootstrap.com/support/general/auto-close-navbar-when-click-on-link-responsive-mode/)-->
 
-$('.navbar-collapse a').click(function () {
+$('.navbar-collapse a').click(function(){
     $(".navbar-collapse").collapse('hide');
 });

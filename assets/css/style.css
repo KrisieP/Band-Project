@@ -404,6 +404,10 @@ footer {
 
 /*Modals*/
 
+.modal {
+    color: #000000;
+}
+
 .sub-modal-success {
     max-width: 30rem;
     margin: 1.75rem auto;
