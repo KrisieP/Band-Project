@@ -67,6 +67,16 @@ h5 {
     padding-left: 1px;
 }
 
+.logo-link {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.logo-link:hover {
+    color: #f88400;
+    text-decoration: none;
+}
 
 /*Hero Image Section*/
 
