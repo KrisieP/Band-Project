@@ -203,7 +203,6 @@ h5 {
     -o-background-size: cover;
     background-size: cover;
     position: relative;
-
 }
 
 .background-wrapper-events {
@@ -316,7 +315,6 @@ caption {
 
 .form-main {
     width: 100%;
-    color: #000000;
     max-width: 70%;
     margin: 0 auto;
 }
@@ -345,6 +343,10 @@ caption {
 
 .contact-button {
     margin-top: 1rem;
+}
+
+.form-group {
+    color: #000000;
 }
 
 /*footer*/
@@ -439,5 +441,14 @@ footer {
 @media (min-width: 2160px) {
     html {
         font-size: 100%;
+    }
+}
+
+@media (max-width: 450px) {
+    .nav-logo {
+        font-size: 3rem;
+    }
+    html {
+        scroll-padding-top: 4.2rem;
     }
 }
