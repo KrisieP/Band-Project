@@ -31,7 +31,7 @@ h5 {
 /*Navbar*/
 
 .navbar-custom {
-    background: rgb(139 138 145);
+    background: #878C97;
     position: fixed;
     width: 100%;
     z-index: 999999999;
@@ -39,7 +39,7 @@ h5 {
 }
 
 .navbar-links a {
-    color: #bb6707;
+    color: #EC8209;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -56,7 +56,7 @@ h5 {
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #0069d9;
+    color: #82cbff;
 }
 
 .nav-logo {
@@ -75,7 +75,7 @@ h5 {
 }
 
 .logo-link:hover {
-    color: #f88400;
+    color: #82cbff;
     text-decoration: none;
 }
 
@@ -135,11 +135,16 @@ h5 {
 .btn-primary {
     padding: .5rem 1rem;
     font-size: 1.2rem;
+    color: #000000;
     line-height: 1;
     border-radius: 0.8rem;
     border-width: 1px;
     border-color: #000000;
-    background-color: #bb6707;
+    background-color: #EC8209;
+}
+
+.btn-primary:hover {
+    background-color: #82cbff;
 }
 
 /*feature*/
@@ -155,7 +160,7 @@ h5 {
 }
 
 .feature-box {
-    background-color: rgba(79, 80, 85, 0.575);
+    background-color: rgb(57 59 68 / 72%);
     border-radius: 1rem 1rem;
     margin: 1rem;
 }
@@ -176,7 +181,7 @@ h5 {
 }
 
 .band-feature {
-    background: #a58869;
+    background: #a58869d1;
 }
 
 .band-feature .row {
@@ -184,7 +189,7 @@ h5 {
 }
 
 .aboutus-contactlink {
-    color: #2700ff;
+    color: #EC8209;
     text-decoration: underline;
 }
 
@@ -257,11 +262,12 @@ caption {
 .gallery-background {
     height: 100%;
     width: 100%;
-    background-color: #a58869;
+    background-color: #a58869d1;
 }
 
 .gallery-header {
     height: 100%;
+    color: #000000;
     margin: 0;
     padding-top: 4rem;
     text-align: center;
@@ -279,9 +285,26 @@ caption {
 
 .video-header {
     height: 100%;
+    color: #000000;
     margin-bottom: 4rem;
     padding: 1rem;
     text-align: center;
+}
+
+.links {
+    color: #EC8209;
+    text-decoration: underline;
+    background-color: transparent;
+}
+
+.studio-link {
+    color: #000000;
+    text-decoration: underline;
+}
+
+.links:hover,
+.studio-link:hover {
+    color: #82cbff;
 }
 
 /*Form*/
@@ -330,7 +353,7 @@ footer {
     height: 80%;
     margin: 0;
     padding: 1rem 0;
-    background: #8b8a91;
+    background: #878C97;
 }
 
 .soc-med-foot {
@@ -347,7 +370,7 @@ footer {
     font-size: 2.7rem;
     padding-right: 1rem;
     padding-left: 1rem;
-    color: #bb6707;
+    color: #EC8209;
 }
 
 .soc-med-foot {
@@ -376,7 +399,7 @@ footer {
 }
 
 .fab:hover {
-    color: #0069d9;
+    color: #82cbff;
 }
 
 /*Modals*/
