@@ -223,18 +223,25 @@ h5 {
     margin: 0 auto;
     margin-top: 6rem;
     margin-bottom: 8rem;
-    width: 50%;
+    width: 75%;
     text-align: center;
     background-color: rgba(37, 38, 44, 0.877);
     border-radius: 1rem 1rem;
     color: #fffffb;
+    z-index: 999999999;
 }
 
 .table-box {
     text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 caption {
@@ -346,14 +353,21 @@ footer {
 .soc-med-foot {
     font-size: 1.6rem;
     margin: 0;
-    align-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
 }
 
 .foot-butt-cont {
     text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 .footer-buttons {
