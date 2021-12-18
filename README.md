@@ -34,8 +34,6 @@ Any questions, please feel free to contact me via my github page. Thanks!
         * [Structure](#structure)
 * [Wireframes](#wireframes)
 * [Features](#features)
-    * [Existing Features](#existing-features)
-    * [Features to be implemented](#features-to-be-implemented)
 * [Technologies used](#technologies-used)
     * [Languages](#languages)
     * [Libraries And Frameworks](#libraries-and-frameworks)
