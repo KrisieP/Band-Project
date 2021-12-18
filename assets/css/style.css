@@ -123,7 +123,7 @@ h5 {
     text-align: center;
 }
 
-.sub-box {
+.subscribe-box {
     background-color: rgba(79, 80, 85, 0.575);
     border-radius: 1rem 1rem;
     display: inline-block;
@@ -386,7 +386,7 @@ footer {
         align-content: center;
 }
 
-.foot-butt-cont {
+.footer-buttons-container {
     text-align: center;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -414,7 +414,7 @@ footer {
     color: #000000;
 }
 
-.sub-modal-success {
+.subscribe-modal-success {
     max-width: 30rem;
     margin: 1.75rem auto;
 }
