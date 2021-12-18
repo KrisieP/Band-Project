@@ -117,7 +117,7 @@ Any questions, please feel free to contact me via my github page. Thanks!
 
 <a></a>
 ### **Design Choices**
-I looked through the website [coolors](https://coolors.co/) but i couldn't settle on a pallet that would suit the band so i have spent time looking through colours using the dev tools until i found what i felt reprisented the bands vibe while still providing suitable contrast to buttons, backgrounds and content.
+I looked through the website [coolors](https://coolors.co/) and found some base colours using the generator, then adjusting the shades i found what worked best whilst providing a good level of contrast for accessibility.
 
 <a></a>
 #### **Fonts**
@@ -135,20 +135,19 @@ I have decided to implement icons, using the [Font Awesome library](https://font
 #### **Colors**
 The colours i have used for the website are as follows;
 
-* #a58869 = This is my main background colour as i feel it represents a natural wooden colour whilts not drawing you away from the foreground which i want the use to concentrate on.
-* #8b8a91 = I have chosen to use this grey for my header and footer it's subtle and follows suit with the theme of using greys throughout the website and the band also tend to like black and white photography over colour, so i felt this taylors to their general preferences.
-* #bb6707 = This orange was chosen for buttons & social media links for two key reasons, firstly the band have enjoyed using orange on their promotional flyers in the past so this falls in line both what they like but also what their followers expect/feel they should be seeing and secondly it also provides a beautiful striking contrast to stand out, getting users to subscribe, contact them and view further content via their social media outlets.
-* rgba(79, 80, 85, 0.575)
-  rgba(0,0,0,0.5)
-  rgba(37, 38, 44, 0.877) = I have used a few different shades of translucent grey to provide contrast to some of my content fields where i felt is was required. I didn't want to lose the background image behind the content enterly but also didn't want the background image to draw the user way from the content i want them to see.
-* #d6d6d6 = This off white make the pefect colour for content as it won't be too harsh on the eyes for user's when reading larger blocks of text.
-* #fffffb = This is a bright white that will be used in areas when i want text to be striking and really stand out from it's background such as certain header and the live events table.
+![Colour Pallet](assets/images/screenshots/bandproject.png)
+
+* #a58869 = Beaver is my main background colour as i feel it represents a natural wooden colour whilst not drawing attention away from the foreground which i want the user to concentrate on.
+* #878C97 = Roman Silver has been chosen for my header and footer as it's subtle and follows suit with the theme of using greys throughout the website and the band also like black and white photography over colour, so i felt this taylors to their general preferences.
+* #F79626 = Deep Saffron was chosen for buttons & social media links for two key reasons, firstly the band have enjoyed using orange on their promotional flyers in the past so this falls in line both what they like but also what their followers expect/feel they should be seeing and secondly it also provides a beautiful striking contrast to stand out, getting users to subscribe, contact the band and view further content via their social media outlets.
+* #25262C = Raisin Black has worked perfectly as a background colour to promote contrast for sections with content and tables.
+* #82CBFF = Light Sky Blue is my "hover" colour as it works across the styling of the whole site.
 
 
 <a></a>
 #### **Structure**
 I have decided to use [Bootstrap](https://getbootstrap.com/) to build the base code for my website as it has proven to be an invaluable framework. 
-Bootstrap provides various elements of CSS and Javascript which is very helpful to keep a good, responsive structure on my pages. 
+Bootstrap provides various elements of CSS and Javascript which is very helpful to keep a good, responsive structure on my site. 
 As Bootstrap is designed for mobile first, I will be certain that my website functions well on mobile.
 
 [Back to Top](#table-of-contents)
@@ -180,31 +179,37 @@ You can find my wireframes below:
 
 
 ### Navigation
+
 I have used Bootstrap to create my navbar due to it's responsive nature between devices sizes.
 For mobile devices i have used a dropdown menu which is a lot cleaner than trying to squeeze all options onto a small navbar.
+![Full Navbar](assets/images/screenshots/full-navbar.png)
+![Mobile Navbar](assets/images/screenshots/mobile-navbar.png)
 
-
-### Home Page - Hero Image
+### Home - Hero Image
 
 I have decided to implement a hero image which spreads over 100% width of the screen. I have set the height at 80vh to show a little of what comes next to entise the user into scrolling down the page.
 The image responds well when viewing on desktop, tablet and mobile.
-
+![Hero Image](assets/images/screenshots/hero-image.png)
 
 ### About Us Section
 
 Here I used the grid from Bootstrap to create 3 colums on desktop & tablet view which turn into full width stacked columns on mobile devices. To help separate the columns i will provide a dark translucent boxes to each field. 
+![About Us](assets/images/screenshots/about-us.png)
 
 ### Live Events Section
 
 For the live events section i will use a responsive background image of the band playing live that will fill the screen on all devices sizes. 
 
-I will implement a table to nest all upcoming event dates, locations and times whilst each location will also be a link to the venues websites for eas of users to be able to contact said venue to enquire to booking tickets to see the band play. This table will be responsive to all device sizes and have a width of 50% to not tke up the screens real-estate as the back ground will also help to represent what an event setting could look like.
+I will implement a table to nest all upcoming event dates, locations and times whilst each location will also be a link to the venues websites for eas of users to be able to contact said venue to enquire to booking tickets to see the band play. This table will be responsive to all device sizes and have a slight translucent backdrop as the background will also help to represent what an event setting could look like.
+![Live Events](assets/images/screenshots/live-events.png)
 
 ### Gallery Section
 
 For the gallery images i have decided to use a bootstrap carosel slide show as i felt a gallery with lots of images across the section would take away from the website clean and easy to view look. 
 
 I decided against filling the screen width for the carosel as i wanted it to taper into the bands main content for the section, their live studio recording which is in the form of a youtube embeded video spaning a 100% width of the page on all device sizes as it's the main focal point of the section and something the band want to be prominant on the website to help encourage users to book them.
+![Gallery Carousel](assets/images/screenshots/gallery-carousel.png)
+![Gallery Video](assets/images/screenshots/gallery-video.png)
 
 
 ### Contact Us Section
@@ -212,7 +217,13 @@ I decided against filling the screen width for the carosel as i wanted it to tap
 In the contact-us section i have made the following filed manditory to complete Name, Email, Enquiry Description, I have chosen to leave the phone number as non-complusory as some users do not like to provide phone numbers upon making enquiries, as a whole so doing this should help to build the level of enquiries the band recieve.
 
 In the event and enquiry details section I have used some decriptive place holder text to help guide the user into what they would need to let tyhe band know what they want for booking, this will help the band with returning a comprehensive reply.
+![Contact Us](assets/images/screenshots/contact-us.png)
 
+### Footer Section
+
+The footer will be kept clean and simple as it will contain the social media links/icons. When on a tablet and desktop i want the social media icons, return to top and subscribe buttons inline, while on a mobile devices i will have the icons and buttons stacked.
+![Footer Tablet and Desktop](assets/images/screenshots/footer.png)
+![Footer Mobile](assets/images/screenshots/footer-mobile.png)
 
 [Back to Top](#table-of-contents)
 
