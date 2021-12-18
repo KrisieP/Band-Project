@@ -1,6 +1,6 @@
 # The Llewellin Duo - First Milestone Project
 
-![Mockup image](wireframes/mockup-image.png)
+![Mockup image](assets/images/screenshots/mock-up.png)
 
 ## **Goal for this project** 
 
@@ -254,6 +254,7 @@ The footer will be kept clean and simple as it will contain the social media lin
 * [W3C HTML Validation Service](https://validator.w3.org/)
 * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
 * [techsini](http://techsini.com/)
+* [Lighthouse](https://developers.google.com/web/tools/lighthouse)
 
 
 [Back to Top](#table-of-contents)
@@ -266,18 +267,18 @@ The footer will be kept clean and simple as it will contain the social media lin
 ### Navigation bar
 
 * **Plan**    
-I want to have a static Nav bar that sticks to the top of the page, when in desktop and tablet view i want the navigation menu to be in a inline list across the nav bar, when in mobile view i want the menu to fall into a hamburger style dropdown menu to help keep the design clean and not over crowded.
-I also want on the left hand side(the opposing side to the nav menu), to have a 'contact us' button to drive users into making an enquiry.
+I want to have a static Nav bar that sticks to the top of the page, when in desktop and tablet view i want the navigation menu to be in a inline list across the nav bar, when in mobile view i want the menu to fall into a hamburger style dropdown menu to help keep the design clean and not over crowded. In mobile when clicking a link i want the hamburger menu to close
 
 * **Implementation**   
 I implemented the navigation bar using Bootstrap which made is responsive to all device sizes. 
 I have used CSS to style the navbar to bring it inline with design of the rest of the site.
 I have used Bootstrap to implement the hamburger icon dropdown menu for mobile devices only. 
+I had to implement custom JS to have the mobile menu dissapear when clicking a menu item.
 
 * **Test**    
 To test the navigation bar, I have click all the links to make sure it works properly. 
-I have also opened the website in various browers (safari, google chrome, mozilla firefox) to make sure it works on all browsers and devices.
-On mobile the navigation transformed into the hamburger sign with a dropdown menu.
+I have also opened the website in various browers (google chrome, mozilla firefox, edge) to make sure it works on all browsers and devices.
+On mobile the navigation transformed into the hamburger sign with a dropdown menu and dissapears when a menu item is clicked.
 
 * **Result**    
 The Nav Bar works as it should on browsers tested and is responsive on varying device screen sizes.
@@ -288,7 +289,7 @@ The hamburger menu works as it supposed to on mobile devices.
 The navbar is working as it should.
 
 
-### Modal
+### Modals
 
 * **Plan**    
 I will implement modals into my subscribe buttons as i want to it to be a quick subscription method, i will implement a further modal to confirm the subscription.
@@ -301,7 +302,7 @@ I have used bootstrap to implement my modals. I found a base template and taylor
 Tested on multiple browsers and device sizes.
 
 * **Result**    
-Worked as expected with no apprant bugs.
+Working as expected with no apprant bugs.
 
 * **Verdict**    
 Fully functioning as planned.
@@ -322,10 +323,17 @@ Tested on multiple browsers and device sizes.
 * **Result**    
 The slide show sits and works as expected cycling automatically through the pictures in a responsive fashion to different device sizes.
 Works with no apparant faults on different browsers. 
-**BUG** - Previous and Next buttons did not work so pulled them from the design as i do not understand the javascript to fix it.
+**BUG** - Previous and Next buttons did not work so pulled them from the design.
+**update**
+Have looked at this again with my mentor, explained that the documentation on bootstraps website will explain what is require to make this work.
+The buttons are now working as they should be!
+
 
 * **Verdict**    
 The buttons do not work which minor and not the main requirement in my design. 
+**update**
+Have looked at this again with my mentor, explained that the documentation on bootstraps website will explain what is require to make this work.
+The buttons are now working as they should be!
 The slideshow met all the main criteria i was trying to acheive in regards to device sizes and browser types. 
 The embedded youtube video sit and works as required.
 
@@ -380,18 +388,21 @@ The table falls out of landscape center alignment on mobile size devices when us
 
 * **Fix**  
 A safari browser is required to fix this issue and i do not have a Apple device to test and implement a fix, windows and android devices are no longer supported by Apple.
+**update**
+Ran my css through a autoprefixer which supplied some prefixes which have now implemented. This has allowed my table to stay within its container.
 
 * **Verdict**   
 Find a Apple computer to use safari dev tools to implement a fix for later release.
+**update**
+Asked a friend with an iphone to have a quick look at my website where they then sent a screen shot to show me the result.
 
 ### Hamburger mobile navbar dropdown menu
 
 * **Bug**    
-On mobile devices when you click the hamburger icon, the menu appears nicely. 
-Whenever you click on one of the menu links the dropdown menu doesn't dissapear and stays open.
+On mobile devices whenever you click on one of the menu links the dropdown menu doesn't dissapear and stays open.
 
 * **Fix**   
-I have found some custom JQuery script that I have implemented into index.html 
+I have found some custom JQuery script that I have implemented into scripts.js.
 
 * **Verdict**   
 The menu now close upon clicking a link as it should. This creates a much better user experience.
@@ -461,7 +472,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 * I would thank the tuition up to this point as i wouldn't have been able to complete this project otherwise. I also want to credit some CSS that i used from the [Whiskey Drop](https://github.com/KrisieP/Bootstrap/blob/main/css/style.css#:~:text=%7D-,.callout%2Dcontainer%20%7B,background%2Dsize%3A%20cover%3B,-display%3A%20flex%3B*/) project that they guided me through earlier in the degree.
 
-* [Simen Daehlin](https://github.com/KrisieP/Band-Project/blob/main/assets/css/style.css#:~:text=in%20rem%20easier*/-,html%20%7B,%7D,-/*Special%20paddings/margins) for providing me with this neat CSS trick which helped me to work in REM by making 1REM equal to a figure of 10 but still out putting a pixel size of 16 within the body of my HTML. 
+* [Simen Daehlin](https://github.com/KrisieP/Band-Project/blob/main/assets/css/style.css#:~:text=in%20rem%20easier*/-,html%20%7B,%7D,-/*Special%20paddings/margins) for providing me with some assistance to make a script which pushed multiple modals close at the sametime. Also his overall guidance and experience has helped to learn better practices, allowing me to produce a more professional website.  
 
 ## **Acknowledgments**
 
@@ -469,6 +480,6 @@ First Credit will have to go my mentor Simen for helping me keep structure in my
 
 Secondly i need to thank the Slack community as there have been a couple of instances where i needed a little guidance and the community was there at the drop of a hat to help me workout a few selected issues and understand the issues for future reference.
 
-Thirdly my parnter Emily who has spent time discussing and looking at the styling of the website, helping me find problematic areas that i have now fixed.
+Thirdly my parnter Emily who has spent time discussing and looking at the styling of the website, helping me find problematic areas that i have since fixed.
 
 [Back to Top](#table-of-contents)
