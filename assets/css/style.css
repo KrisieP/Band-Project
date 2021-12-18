@@ -85,7 +85,7 @@ h5 {
     /*I took this from the whisky drop project 
     https://github.com/KrisieP/Bootstrap/blob/main/css/style.css/ */
     height: 80vh;
-    background: url("../images/Hero\ Image.webp") no-repeat bottom right;
+    background: url("../images/hero-image.webp") no-repeat bottom right;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
