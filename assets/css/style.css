@@ -39,7 +39,7 @@ h5 {
 }
 
 .navbar-links a {
-    color: #EC8209;
+    color: #F79626;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -140,7 +140,7 @@ h5 {
     border-radius: 0.8rem;
     border-width: 1px;
     border-color: #000000;
-    background-color: #EC8209;
+    background-color: #F79626;
 }
 
 .btn-primary:hover {
@@ -189,7 +189,7 @@ h5 {
 }
 
 .aboutus-contactlink {
-    color: #EC8209;
+    color: #F79626;
     text-decoration: underline;
 }
 
@@ -293,7 +293,7 @@ caption {
 }
 
 .links {
-    color: #EC8209;
+    color: #F79626;
     text-decoration: underline;
     background-color: transparent;
 }
@@ -337,6 +337,8 @@ caption {
 
 .contact-us-sub-head {
     margin-bottom: 3.5rem;
+    font-size: 1.8rem;
+    font-family: "Lora", sans-serif;
 }
 
 .phone {
@@ -374,7 +376,7 @@ footer {
     font-size: 2.7rem;
     padding-right: 1rem;
     padding-left: 1rem;
-    color: #EC8209;
+    color: #F79626;
 }
 
 .soc-med-foot {
